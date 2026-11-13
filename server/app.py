@@ -106,7 +106,7 @@ def health(req):
 CSP = ("default-src 'self'; img-src 'self' data: https://images.unsplash.com; "
        "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; "
        "script-src 'self'; connect-src 'self'; manifest-src 'self'; worker-src 'self'; "
-       "base-uri 'self'; form-action 'self'; frame-ancestors 'none'")
+       "base-uri 'self'; form-action 'self'; frame-ancestors 'self'")  # 'self' allows /showcase.html device frames
 
 
 class Handler(BaseHTTPRequestHandler):

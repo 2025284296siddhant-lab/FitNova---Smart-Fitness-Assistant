@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FitNova — Device Showcase</title>
+  <link rel="icon" type="image/svg+xml" href="/icons/icon.svg">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@600;700&display=swap">
+  <style>
+    :root { --bg:#07080A; --text:#F3F5F7; --muted:#8B93A0; --line:rgba(255,255,255,.1); --accent:#2EE6FF; }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; height: 100%; }
+    body {
+      background: radial-gradient(900px 600px at 70% 10%, rgba(59,139,255,.12), transparent 60%),
+                  radial-gradient(700px 500px at 10% 90%, rgba(46,230,255,.08), transparent 60%), var(--bg);
+      color: var(--text); font-family: Inter, "Segoe UI", system-ui, sans-serif; overflow: hidden;
+      display: grid; grid-template-columns: 300px 1fr;
+    }
+    aside { padding: 28px 22px; border-right: 1px solid var(--line); background: rgba(10,12,15,.7); overflow: auto; }
+    h1 { font-family: "Space Grotesk", sans-serif; font-size: 22px; margin: 0; letter-spacing: -.01em; }
+    h1 b { color: var(--accent); }
+    .tag { font-size: 10px; letter-spacing: .2em; color: var(--muted); font-weight: 600; margin-top: 4px; }
+    h2 { font-size: 11px; letter-spacing: .16em; text-transform: uppercase; color: var(--accent); margin: 26px 0 10px; font-family: "Space Grotesk", sans-serif; }
+    .opts { display: flex; flex-direction: column; gap: 6px; }
+    button {
+      font: inherit; color: var(--text); background: #14171C; border: 1px solid var(--line); border-radius: 11px;
+      padding: 10px 12px; text-align: left; cursor: pointer; transition: border-color .2s, background .2s; display: flex; justify-content: space-between; gap: 8px;
+    }
+    button small { color: var(--muted); }
+    button:hover { border-color: rgba(255,255,255,.25); }
+    button.on { border-color: var(--accent); background: rgba(46,230,255,.1); color: var(--accent); }
+    .row { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; }
+    .row button { justify-content: center; }
+    p.note { color: var(--muted); font-size: 12.5px; line-height: 1.55; margin-top: 22px; }
+    main { position: relative; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 14px; overflow: hidden; padding: 20px; }
+    .stage-box { position: relative; flex: none; }
+    .stage { position: absolute; left: 0; top: 0; transform-origin: top left; transition: transform .35s cubic-bezier(.2,.8,.2,1); }
+    .device {
+      position: relative; padding: 14px; border-radius: 58px; background: linear-gradient(145deg, #2A2F37, #111317 60%, #23272E);
+      box-shadow: 0 0 0 2px #3A404A inset, 0 0 0 1px #000, 0 40px 120px -20px rgba(0,0,0,.9), 0 0 80px -30px rgba(46,230,255,.35);
+    }
+    .device::before, .device::after { content: ""; position: absolute; width: 4px; border-radius: 4px; background: #2A2F37; }
+    .device::before { left: -4px; top: 150px; height: 70px; }
+    .device::after { right: -4px; top: 190px; height: 100px; }
+    .screen { position: relative; overflow: hidden; border-radius: 44px; background: #090B0E; display: flex; flex-direction: column; }
+    .statusbar { height: 44px; flex: none; display: flex; align-items: center; justify-content: space-between; padding: 0 28px; font-size: 14px; font-weight: 600; background: #090B0E; position: relative; z-index: 2; }
+    .statusbar .icons { display: flex; gap: 6px; align-items: center; }
+    .statusbar svg { width: 17px; height: 12px; }
+    .island { position: absolute; left: 50%; top: 10px; transform: translateX(-50%); width: 112px; height: 30px; border-radius: 20px; background: #000; }
+    .punch { position: absolute; left: 50%; top: 14px; transform: translateX(-50%); width: 14px; height: 14px; border-radius: 50%; background: #000; box-shadow: 0 0 0 2px #111; }
+    iframe { border: 0; flex: 1; width: 100%; background: #090B0E; display: block; }
+    .homebar { position: absolute; left: 50%; bottom: 8px; transform: translateX(-50%); width: 120px; height: 4px; border-radius: 3px; background: rgba(255,255,255,.55); z-index: 3; pointer-events: none; }
+    .device.tablet { border-radius: 36px; padding: 18px; }
+    .device.tablet .screen { border-radius: 20px; }
+    .device.tablet .statusbar { height: 28px; font-size: 12px; padding: 0 22px; }
+    .caption { text-align: center; color: var(--muted); font-size: 12.5px; }
+    @media (max-width: 760px) {
+      body { grid-template-columns: 1fr; grid-template-rows: auto minmax(0, 1fr); }
+      aside { border-right: 0; border-bottom: 1px solid var(--line); padding: 10px 14px; display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+      aside > div:first-of-type, .tag, h2, p.note { display: none; }
+      h1 { font-size: 16px; margin-right: 6px; }
+      .opts, .row { display: flex; flex-direction: row; flex-wrap: wrap; gap: 6px; }
+      button { padding: 6px 10px; font-size: 12.5px; border-radius: 9px; }
+      button small { display: none; }
+      main { padding: 10px; gap: 8px; }
+    }
+  </style>
+</head>
+<body>
+  <aside>
+    <h1>Fit<b>Nova</b></h1>
+    <div class="tag">DEVICE SHOWCASE</div>
+
+    <h2>Device</h2>
+    <div class="opts" id="devices"></div>
+
+    <h2>Jump to screen</h2>
+    <div class="row" id="screens"></div>
+
+    <h2>Controls</h2>
+    <div class="row">
+      <button id="reload">↻ Reload</button>
+      <button id="open">↗ Full screen</button>
+    </div>
+
+    <p class="note">This is the live app running inside a device frame at the device's real CSS
+      resolution. Everything is interactive and saves to the same database. Tap and scroll inside the phone like a real device.</p>
+  </aside>
+  <main id="main">
+    <div class="stage-box" id="stage-box"><div class="stage" id="stage"></div></div>
+    <div class="caption" id="caption"></div>
+  </main>
+  <script src="/showcase.js"></script>
+</body>
+</html>

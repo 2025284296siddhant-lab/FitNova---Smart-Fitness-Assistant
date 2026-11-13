@@ -18,6 +18,11 @@ python run.py
 
 Then open **http://localhost:8000**. The database is created at `data/fitnova.db` on first run.
 
+**Device showcase:** open **http://localhost:8000/showcase.html** to see the live app inside a
+phone or tablet frame (iPhone 15 Pro, Pixel 8, Galaxy S24, iPad mini) at each device's real CSS
+resolution, with buttons that jump to each screen. It is fully interactive. It's a browser
+emulation, not a native emulator.
+
 Options:
 
 ```bash
