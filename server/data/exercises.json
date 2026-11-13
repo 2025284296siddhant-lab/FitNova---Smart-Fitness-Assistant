@@ -1,0 +1,2141 @@
+[
+  {
+    "name": "Incline Push-Up",
+    "muscle": "chest",
+    "goals": [
+      "muscle_gain",
+      "strength",
+      "general_fitness",
+      "endurance"
+    ],
+    "level": "beginner",
+    "equipment": "none",
+    "workout_type": "compound",
+    "sets": 3,
+    "reps": "10-15",
+    "rest_seconds": 60,
+    "instructions": "Place your hands on a bench or sturdy table, slightly wider than your shoulders. Lower your chest toward the edge while keeping your body in a straight line. Press back up until your arms are straight."
+  },
+  {
+    "name": "Push-Up",
+    "muscle": "chest",
+    "goals": [
+      "muscle_gain",
+      "strength",
+      "general_fitness",
+      "endurance"
+    ],
+    "level": "beginner",
+    "equipment": "none",
+    "workout_type": "compound",
+    "sets": 3,
+    "reps": "8-12",
+    "rest_seconds": 75,
+    "instructions": "Start in a high plank with hands under your shoulders. Lower your chest toward the floor with elbows at about 45 degrees. Press through your palms to return to the start. Beginners can perform it from the knees or with hands on a raised surface."
+  },
+  {
+    "name": "Decline Push-Up",
+    "muscle": "chest",
+    "goals": [
+      "muscle_gain",
+      "strength",
+      "general_fitness",
+      "endurance"
+    ],
+    "level": "advanced",
+    "equipment": "none",
+    "workout_type": "compound",
+    "sets": 3,
+    "reps": "8-10",
+    "rest_seconds": 90,
+    "instructions": "Rest your feet on an elevated surface and place your hands on the floor. Lower your chest under control while keeping your core tight. Press back up without letting your hips sag."
+  },
+  {
+    "name": "Dumbbell Floor Press",
+    "muscle": "chest",
+    "goals": [
+      "muscle_gain",
+      "strength",
+      "general_fitness"
+    ],
+    "level": "beginner",
+    "equipment": "dumbbells",
+    "workout_type": "compound",
+    "sets": 3,
+    "reps": "8-12",
+    "rest_seconds": 75,
+    "instructions": "Lie on the floor holding dumbbells over your chest. Lower the weights until your upper arms lightly touch the floor. Press back up to the start."
+  },
+  {
+    "name": "Dumbbell Bench Press",
+    "muscle": "chest",
+    "goals": [
+      "muscle_gain",
+      "strength",
+      "general_fitness"
+    ],
+    "level": "intermediate",
+    "equipment": "dumbbells",
+    "workout_type": "compound",
+    "sets": 4,
+    "reps": "6-10",
+    "rest_seconds": 90,
+    "instructions": "Lie on a bench with a dumbbell in each hand at chest level. Press the weights up until your arms are extended, then lower them under control. Keep your feet planted and shoulder blades pulled back."
+  },
+  {
+    "name": "Dumbbell Fly",
+    "muscle": "chest",
+    "goals": [
+      "muscle_gain",
+      "general_fitness"
+    ],
+    "level": "intermediate",
+    "equipment": "dumbbells",
+    "workout_type": "isolation",
+    "sets": 3,
+    "reps": "12-15",
+    "rest_seconds": 60,
+    "instructions": "Lie on a bench with dumbbells above your chest and a soft bend in your elbows. Open your arms in a wide arc until you feel a stretch, then bring them back together. Avoid letting the weights drop too low."
+  },
+  {
+    "name": "Barbell Bench Press",
+    "muscle": "chest",
+    "goals": [
+      "muscle_gain",
+      "strength",
+      "general_fitness"
+    ],
+    "level": "intermediate",
+    "equipment": "barbell",
+    "workout_type": "compound",
+    "sets": 4,
+    "reps": "5-8",
+    "rest_seconds": 120,
+    "instructions": "Lie on a bench with your eyes under the bar and a grip slightly wider than shoulder width. Lower the bar to mid-chest with control, then press it up. Use a spotter or safety pins when lifting heavy."
+  },
+  {
+    "name": "Barbell Incline Bench Press",
+    "muscle": "chest",
+    "goals": [
+      "muscle_gain",
+      "strength",
+      "general_fitness"
+    ],
+    "level": "advanced",
+    "equipment": "barbell",
+    "workout_type": "compound",
+    "sets": 4,
+    "reps": "5-8",
+    "rest_seconds": 120,
+    "instructions": "Set a bench to a low incline and unrack the bar over your upper chest. Lower it with control to the upper chest, then press back to lockout. Keep your wrists stacked over your elbows and use a spotter."
+  },
+  {
+    "name": "Cable Chest Fly",
+    "muscle": "chest",
+    "goals": [
+      "muscle_gain",
+      "general_fitness"
+    ],
+    "level": "intermediate",
+    "equipment": "cable",
+    "workout_type": "isolation",
+    "sets": 3,
+    "reps": "12-15",
+    "rest_seconds": 60,
+    "instructions": "Set the cable pulleys at about chest height and step forward into a staggered stance. Bring the handles together in front of your chest with a slight elbow bend. Return slowly to the stretched position."
+  },
+  {
+    "name": "Machine Chest Press",
+    "muscle": "chest",
+    "goals": [
+      "muscle_gain",
+      "strength",
+      "general_fitness"
+    ],
+    "level": "beginner",
+    "equipment": "machine",
+    "workout_type": "compound",
+    "sets": 3,
+    "reps": "10-12",
+    "rest_seconds": 60,
+    "instructions": "Adjust the seat so the handles line up with mid-chest. Press the handles forward until your arms are nearly straight, then return slowly. Keep your back against the pad throughout."
+  },
+  {
+    "name": "Band Chest Press",
+    "muscle": "chest",
+    "goals": [
+      "muscle_gain",
+      "strength",
+      "general_fitness",
+      "endurance"
+    ],
+    "level": "beginner",
+    "equipment": "bands",
+    "workout_type": "compound",
+    "sets": 3,
+    "reps": "10-15",
+    "rest_seconds": 60,
+    "instructions": "Anchor the band behind you at chest height and hold the handles at your chest. Press forward until your arms are straight, then return with control. Keep your core braced and avoid arching your lower back."
+  },
+  {
+    "name": "Band Chest Fly",
+    "muscle": "chest",
+    "goals": [
+      "muscle_gain",
+      "general_fitness"
+    ],
+    "level": "beginner",
+    "equipment": "bands",
+    "workout_type": "isolation",
+    "sets": 3,
+    "reps": "12-15",
+    "rest_seconds": 45,
+    "instructions": "Anchor the band behind you at chest height and hold the ends with arms out to the sides and a soft elbow bend. Bring your hands together in front of your chest. Return slowly without letting your shoulders round forward."
+  },
+  {
+    "name": "Superman",
+    "muscle": "back",
+    "goals": [
+      "muscle_gain",
+      "general_fitness"
+    ],
+    "level": "beginner",
+    "equipment": "none",
+    "workout_type": "isolation",
+    "sets": 3,
+    "reps": "10-12",
+    "rest_seconds": 45,
+    "instructions": "Lie face down with arms extended in front of you. Lift your arms, chest, and legs slightly off the floor and hold briefly. Lower with control and keep your neck relaxed."
+  },
+  {
+    "name": "Prone Y-T-W Raise",
+    "muscle": "back",
+    "goals": [
+      "muscle_gain",
+      "general_fitness"
+    ],
+    "level": "beginner",
+    "equipment": "none",
+    "workout_type": "isolation",
+    "sets": 2,
+    "reps": "8-10",
+    "rest_seconds": 45,
+    "instructions": "Lie face down and raise your arms into a Y shape, then a T shape, then a W shape. Lift gently using your upper back and keep your neck long. Move slowly and pause briefly at each position."
+  },
+  {
+    "name": "Reverse Snow Angel",
+    "muscle": "back",
+    "goals": [
+      "muscle_gain",
+      "general_fitness"
+    ],
+    "level": "beginner",
+    "equipment": "none",
+    "workout_type": "isolation",
+    "sets": 2,
+    "reps": "10-12",
+    "rest_seconds": 45,
+    "instructions": "Lie face down with arms by your sides and forehead resting on the floor. Lift your arms and sweep them overhead in a snow angel motion while keeping your chest down. Keep the movement slow and within a comfortable range."
+  },
+  {
+    "name": "Dead Hang",
+    "muscle": "back",
+    "goals": [
+      "muscle_gain",
+      "general_fitness"
+    ],
+    "level": "beginner",
+    "equipment": "pullup_bar",
+    "workout_type": "isolation",
+    "sets": 3,
+    "reps": "20-30 sec",
+    "rest_seconds": 60,
+    "instructions": "Grip a pull-up bar with hands slightly wider than shoulder width and let your body hang fully. Relax your shoulders and breathe steadily. Step down when you need to stop."
+  },
+  {
+    "name": "Band Pull-Apart",
+    "muscle": "back",
+    "goals": [
+      "muscle_gain",
+      "general_fitness"
+    ],
+    "level": "beginner",
+    "equipment": "bands",
+    "workout_type": "isolation",
+    "sets": 3,
+    "reps": "12-15",
+    "rest_seconds": 45,
+    "instructions": "Hold a resistance band in front of you with arms straight at shoulder height. Pull the band apart by squeezing your shoulder blades together. Return slowly without letting your arms bend much."
+  },
+  {
+    "name": "Band Row",
+    "muscle": "back",
+    "goals": [
+      "muscle_gain",
+      "strength",
+      "general_fitness",
+      "endurance",
+      "weight_management"
+    ],
+    "level": "beginner",
+    "equipment": "bands",
+    "workout_type": "compound",
+    "sets": 3,
+    "reps": "10-12",
+    "rest_seconds": 60,
+    "instructions": "Anchor the band at chest height and hold the ends with arms extended. Pull your elbows back toward your ribs while squeezing your shoulder blades. Return with control."
+  },
+  {
+    "name": "Table Row",
+    "muscle": "back",
+    "goals": [
+      "muscle_gain",
+      "strength",
+      "general_fitness",
+      "endurance",
+      "weight_management"
+    ],
+    "level": "intermediate",
+    "equipment": "none",
+    "workout_type": "compound",
+    "sets": 3,
+    "reps": "8-10",
+    "rest_seconds": 75,
+    "instructions": "Lie under a sturdy table and grip its edge with hands shoulder width apart. Pull your chest up toward the edge while keeping your body straight. Lower yourself with control."
+  },
+  {
+    "name": "Lat Pulldown",
+    "muscle": "back",
+    "goals": [
+      "muscle_gain",
+      "strength",
+      "general_fitness",
+      "weight_management"
+    ],
+    "level": "beginner",
+    "equipment": "machine",
+    "workout_type": "compound",
+    "sets": 3,
+    "reps": "10-12",
+    "rest_seconds": 75,
+    "instructions": "Sit with thighs secured under the pad and grip the bar slightly wider than your shoulders. Pull the bar down to your upper chest while leaning back slightly. Let the bar rise slowly to a full stretch."
+  },
+  {
+    "name": "Dumbbell Bent-Over Row",
+    "muscle": "back",
+    "goals": [
+      "muscle_gain",
+      "strength",
+      "general_fitness",
+      "weight_management"
+    ],
+    "level": "beginner",
+    "equipment": "dumbbells",
+    "workout_type": "compound",
+    "sets": 3,
+    "reps": "8-12",
+    "rest_seconds": 75,
+    "instructions": "Hinge forward at the hips with a flat back and a dumbbell in each hand. Pull the weights toward your lower ribs, squeezing your shoulder blades. Lower them under control."
+  },
+  {
+    "name": "Dumbbell Single-Arm Row",
+    "muscle": "back",
+    "goals": [
+      "muscle_gain",
+      "strength",
+      "general_fitness",
+      "weight_management"
+    ],
+    "level": "intermediate",
+    "equipment": "dumbbells",
+    "workout_type": "compound",
+    "sets": 3,
+    "reps": "8-10 each side",
+    "rest_seconds": 75,
+    "instructions": "Place one knee and hand on a bench with your back flat and a dumbbell in the other hand. Pull the weight toward your hip, keeping your elbow close to your body. Lower with control and switch sides."
+  },
+  {
+    "name": "Seated Cable Row",
+    "muscle": "back",
+    "goals": [
+      "muscle_gain",
+      "strength",
+      "general_fitness",
+      "weight_management"
+    ],
+    "level": "intermediate",
+    "equipment": "cable",
+    "workout_type": "compound",
+    "sets": 3,
+    "reps": "10-12",
+    "rest_seconds": 75,
+    "instructions": "Sit with feet braced and knees slightly bent, holding the handle with arms extended. Pull the handle to your abdomen while keeping your chest tall. Return slowly without rounding your back."
+  },
+  {
+    "name": "Barbell Bent-Over Row",
+    "muscle": "back",
+    "goals": [
+      "muscle_gain",
+      "strength",
+      "general_fitness",
+      "weight_management"
+    ],
+    "level": "intermediate",
+    "equipment": "barbell",
+    "workout_type": "compound",
+    "sets": 4,
+    "reps": "6-8",
+    "rest_seconds": 120,
+    "instructions": "Hinge forward with a flat back and grip the bar just outside your knees. Pull the bar to your lower ribs, then lower it under control. Keep your core braced throughout."
+  },
+  {
+    "name": "Pull-Up",
+    "muscle": "back",
+    "goals": [
+      "muscle_gain",
+      "strength",
+      "general_fitness",
+      "weight_management"
+    ],
+    "level": "advanced",
+    "equipment": "pullup_bar",
+    "workout_type": "compound",
+    "sets": 3,
+    "reps": "5-8",
+    "rest_seconds": 120,
+    "instructions": "Hang from the bar with hands slightly wider than your shoulders and pull your chest toward the bar. Lower yourself until your arms are fully extended. Avoid swinging, and use a band or machine for assistance if needed."
+  },
+  {
+    "name": "Barbell Deadlift",
+    "muscle": "back",
+    "goals": [
+      "muscle_gain",
+      "strength",
+      "general_fitness",
+      "weight_management"
+    ],
+    "level": "advanced",
+    "equipment": "barbell",
+    "workout_type": "compound",
+    "sets": 4,
+    "reps": "3-5",
+    "rest_seconds": 180,
+    "instructions": "Stand with the bar over mid-foot and grip it just outside your legs. Brace your core, keep your back neutral, and drive through the floor to stand tall. Lower the bar with control and reset between reps."
+  },
+  {
+    "name": "Arm Circles",
+    "muscle": "shoulders",
+    "goals": [
+      "general_fitness"
+    ],
+    "level": "beginner",
+    "equipment": "none",
+    "workout_type": "mobility",
+    "sets": 2,
+    "reps": "30-45 sec",
+    "rest_seconds": 30,
+    "instructions": "Stand tall with arms extended to the sides. Make small circles, gradually increasing their size, then reverse direction. Keep your shoulders relaxed and away from your ears."
+  },
+  {
+    "name": "Pike Push-Up",
+    "muscle": "shoulders",
+    "goals": [
+      "muscle_gain",
+      "strength",
+      "general_fitness",
+      "endurance"
+    ],
+    "level": "intermediate",
+    "equipment": "none",
+    "workout_type": "compound",
+    "sets": 3,
+    "reps": "6-10",
+    "rest_seconds": 75,
+    "instructions": "Start in a downward dog position with hips high and hands shoulder width apart. Bend your elbows to lower the top of your head toward the floor. Press back up to the start."
+  },
+  {
+    "name": "Elevated Pike Push-Up",
+    "muscle": "shoulders",
+    "goals": [
+      "muscle_gain",
+      "strength",
+      "general_fitness",
+      "endurance"
+    ],
+    "level": "advanced",
+    "equipment": "none",
+    "workout_type": "compound",
+    "sets": 3,
+    "reps": "5-8",
+    "rest_seconds": 90,
+    "instructions": "Place your feet on an elevated surface and form a pike position with hands on the floor. Lower your head toward the floor by bending your elbows. Press back up while keeping your core tight."
+  },
+  {
+    "name": "Dumbbell Shoulder Press",
+    "muscle": "shoulders",
+    "goals": [
+      "muscle_gain",
+      "strength",
+      "general_fitness"
+    ],
+    "level": "beginner",
+    "equipment": "dumbbells",
+    "workout_type": "compound",
+    "sets": 3,
+    "reps": "8-12",
+    "rest_seconds": 75,
+    "instructions": "Sit or stand holding dumbbells at shoulder height with palms facing forward. Press the weights overhead until your arms are almost straight. Lower them back to shoulder height under control."
+  },
+  {
+    "name": "Dumbbell Lateral Raise",
+    "muscle": "shoulders",
+    "goals": [
+      "muscle_gain",
+      "general_fitness"
+    ],
+    "level": "beginner",
+    "equipment": "dumbbells",
+    "workout_type": "isolation",
+    "sets": 3,
+    "reps": "12-15",
+    "rest_seconds": 60,
+    "instructions": "Stand holding light dumbbells at your sides with a slight bend in your elbows. Raise your arms out to the sides until they reach shoulder height. Lower slowly and avoid swinging."
+  },
+  {
+    "name": "Dumbbell Front Raise",
+    "muscle": "shoulders",
+    "goals": [
+      "muscle_gain",
+      "general_fitness"
+    ],
+    "level": "beginner",
+    "equipment": "dumbbells",
+    "workout_type": "isolation",
+    "sets": 3,
+    "reps": "10-12",
+    "rest_seconds": 60,
+    "instructions": "Stand holding dumbbells in front of your thighs with palms facing your body. Raise one or both arms forward to shoulder height. Lower with control and keep your torso still."
+  },
+  {
+    "name": "Dumbbell Arnold Press",
+    "muscle": "shoulders",
+    "goals": [
+      "muscle_gain",
+      "strength",
+      "general_fitness"
+    ],
+    "level": "intermediate",
+    "equipment": "dumbbells",
+    "workout_type": "compound",
+    "sets": 3,
+    "reps": "8-10",
+    "rest_seconds": 75,
+    "instructions": "Sit holding dumbbells in front of your shoulders with palms facing you. Rotate your palms outward as you press overhead. Reverse the motion on the way down."
+  },
+  {
+    "name": "Barbell Overhead Press",
+    "muscle": "shoulders",
+    "goals": [
+      "muscle_gain",
+      "strength",
+      "general_fitness"
+    ],
+    "level": "intermediate",
+    "equipment": "barbell",
+    "workout_type": "compound",
+    "sets": 4,
+    "reps": "5-8",
+    "rest_seconds": 120,
+    "instructions": "Hold the bar at shoulder height with a grip just outside shoulder width. Press it straight overhead, moving your head slightly back, then lower with control. Brace your core and avoid excessive arching."
+  },
+  {
+    "name": "Barbell Push Press",
+    "muscle": "shoulders",
+    "goals": [
+      "muscle_gain",
+      "strength",
+      "general_fitness"
+    ],
+    "level": "advanced",
+    "equipment": "barbell",
+    "workout_type": "compound",
+    "sets": 4,
+    "reps": "4-6",
+    "rest_seconds": 120,
+    "instructions": "Hold the bar at shoulder height and use a small dip of the knees to start the lift. Drive through your legs and press the bar overhead. Lower it back to the shoulders under control."
+  },
+  {
+    "name": "Machine Shoulder Press",
+    "muscle": "shoulders",
+    "goals": [
+      "muscle_gain",
+      "strength",
+      "general_fitness"
+    ],
+    "level": "beginner",
+    "equipment": "machine",
+    "workout_type": "compound",
+    "sets": 3,
+    "reps": "10-12",
+    "rest_seconds": 60,
+    "instructions": "Adjust the seat so the handles start at shoulder height. Press the handles overhead until your arms are nearly straight. Lower them slowly and keep your back supported."
+  },
+  {
+    "name": "Cable Lateral Raise",
+    "muscle": "shoulders",
+    "goals": [
+      "muscle_gain",
+      "general_fitness"
+    ],
+    "level": "intermediate",
+    "equipment": "cable",
+    "workout_type": "isolation",
+    "sets": 3,
+    "reps": "12-15",
+    "rest_seconds": 45,
+    "instructions": "Stand sideways to a low cable and hold the handle in the far hand. Raise your arm out to the side until it reaches shoulder height. Lower slowly and repeat on the other side."
+  },
+  {
+    "name": "Band Face Pull",
+    "muscle": "shoulders",
+    "goals": [
+      "muscle_gain",
+      "general_fitness"
+    ],
+    "level": "beginner",
+    "equipment": "bands",
+    "workout_type": "isolation",
+    "sets": 3,
+    "reps": "12-15",
+    "rest_seconds": 45,
+    "instructions": "Anchor the band at about face height and hold it with both hands. Pull toward your face, separating your hands and bringing your elbows high. Return with control."
+  },
+  {
+    "name": "Towel Isometric Curl",
+    "muscle": "biceps",
+    "goals": [
+      "muscle_gain",
+      "general_fitness"
+    ],
+    "level": "beginner",
+    "equipment": "none",
+    "workout_type": "isolation",
+    "sets": 3,
+    "reps": "20-30 sec",
+    "rest_seconds": 45,
+    "instructions": "Stand on the middle of a towel and grip both ends with palms up. Pull up against the towel as if curling, keeping your elbows at your sides. Hold steady tension without moving your arms."
+  },
+  {
+    "name": "Doorway Biceps Curl",
+    "muscle": "biceps",
+    "goals": [
+      "muscle_gain",
+      "general_fitness"
+    ],
+    "level": "beginner",
+    "equipment": "none",
+    "workout_type": "isolation",
+    "sets": 3,
+    "reps": "10-12",
+    "rest_seconds": 45,
+    "instructions": "Hold the frame of a doorway at waist height with palms facing up. Lean back so your arms bear your body weight. Bend your elbows to pull your chest toward the frame, then lower slowly."
+  },
+  {
+    "name": "Dumbbell Bicep Curl",
+    "muscle": "biceps",
+    "goals": [
+      "muscle_gain",
+      "general_fitness"
+    ],
+    "level": "beginner",
+    "equipment": "dumbbells",
+    "workout_type": "isolation",
+    "sets": 3,
+    "reps": "10-12",
+    "rest_seconds": 60,
+    "instructions": "Stand holding dumbbells at your sides with palms facing forward. Curl the weights toward your shoulders while keeping your elbows near your body. Lower slowly to a full stretch."
+  },
+  {
+    "name": "Dumbbell Hammer Curl",
+    "muscle": "biceps",
+    "goals": [
+      "muscle_gain",
+      "general_fitness"
+    ],
+    "level": "intermediate",
+    "equipment": "dumbbells",
+    "workout_type": "isolation",
+    "sets": 3,
+    "reps": "8-12",
+    "rest_seconds": 60,
+    "instructions": "Hold dumbbells at your sides with palms facing each other. Curl the weights up while keeping your wrists neutral. Lower with control."
+  },
+  {
+    "name": "Incline Dumbbell Curl",
+    "muscle": "biceps",
+    "goals": [
+      "muscle_gain",
+      "general_fitness"
+    ],
+    "level": "advanced",
+    "equipment": "dumbbells",
+    "workout_type": "isolation",
+    "sets": 3,
+    "reps": "8-12",
+    "rest_seconds": 75,
+    "instructions": "Sit on an incline bench with dumbbells hanging at your sides. Curl the weights up while keeping your upper arms still. Lower slowly to feel a deep stretch."
+  },
+  {
+    "name": "Barbell Curl",
+    "muscle": "biceps",
+    "goals": [
+      "muscle_gain",
+      "strength",
+      "general_fitness"
+    ],
+    "level": "intermediate",
+    "equipment": "barbell",
+    "workout_type": "isolation",
+    "sets": 3,
+    "reps": "8-10",
+    "rest_seconds": 75,
+    "instructions": "Hold a barbell with an underhand grip at shoulder width. Curl the bar toward your chest while keeping your elbows fixed. Lower it slowly and avoid swinging your torso."
+  },
+  {
+    "name": "Band Bicep Curl",
+    "muscle": "biceps",
+    "goals": [
+      "muscle_gain",
+      "general_fitness"
+    ],
+    "level": "beginner",
+    "equipment": "bands",
+    "workout_type": "isolation",
+    "sets": 3,
+    "reps": "12-15",
+    "rest_seconds": 45,
+    "instructions": "Stand on the middle of a band and hold the ends with palms facing forward. Curl your hands toward your shoulders while keeping your elbows still. Lower slowly with control."
+  },
+  {
+    "name": "Band Hammer Curl",
+    "muscle": "biceps",
+    "goals": [
+      "muscle_gain",
+      "general_fitness"
+    ],
+    "level": "beginner",
+    "equipment": "bands",
+    "workout_type": "isolation",
+    "sets": 3,
+    "reps": "10-12",
+    "rest_seconds": 45,
+    "instructions": "Stand on the band and hold the ends with palms facing each other. Curl your hands up while keeping your wrists neutral. Lower slowly without letting your elbows drift forward."
+  },
+  {
+    "name": "Cable Bicep Curl",
+    "muscle": "biceps",
+    "goals": [
+      "muscle_gain",
+      "general_fitness"
+    ],
+    "level": "intermediate",
+    "equipment": "cable",
+    "workout_type": "isolation",
+    "sets": 3,
+    "reps": "10-12",
+    "rest_seconds": 60,
+    "instructions": "Stand facing a low cable with a straight bar or handle. Curl the handle up toward your shoulders while keeping your elbows at your sides. Lower with control."
+  },
+  {
+    "name": "Chin-Up",
+    "muscle": "biceps",
+    "goals": [
+      "muscle_gain",
+      "strength",
+      "general_fitness"
+    ],
+    "level": "advanced",
+    "equipment": "pullup_bar",
+    "workout_type": "compound",
+    "sets": 3,
+    "reps": "4-6",
+    "rest_seconds": 120,
+    "instructions": "Hang from a bar with palms facing you and hands shoulder width apart. Pull your chest toward the bar, then lower with control. Use a band or machine for help if needed."
+  },
+  {
+    "name": "Bench Dip",
+    "muscle": "triceps",
+    "goals": [
+      "muscle_gain",
+      "strength",
+      "general_fitness",
+      "endurance"
+    ],
+    "level": "beginner",
+    "equipment": "none",
+    "workout_type": "compound",
+    "sets": 3,
+    "reps": "8-12",
+    "rest_seconds": 60,
+    "instructions": "Sit on the edge of a sturdy bench with hands beside your hips. Slide forward off the edge and bend your elbows to lower your body. Press back up without locking your elbows hard."
+  },
+  {
+    "name": "Close-Grip Push-Up",
+    "muscle": "triceps",
+    "goals": [
+      "muscle_gain",
+      "strength",
+      "general_fitness",
+      "endurance"
+    ],
+    "level": "intermediate",
+    "equipment": "none",
+    "workout_type": "compound",
+    "sets": 3,
+    "reps": "8-12",
+    "rest_seconds": 60,
+    "instructions": "Set up in a push-up position with hands about shoulder width or narrower. Lower your chest while keeping your elbows close to your body. Press back up with control."
+  },
+  {
+    "name": "Diamond Push-Up",
+    "muscle": "triceps",
+    "goals": [
+      "muscle_gain",
+      "strength",
+      "general_fitness",
+      "endurance"
+    ],
+    "level": "advanced",
+    "equipment": "none",
+    "workout_type": "compound",
+    "sets": 3,
+    "reps": "6-10",
+    "rest_seconds": 75,
+    "instructions": "Form a diamond shape with your index fingers and thumbs under your chest. Lower your chest toward your hands while keeping your elbows tucked. Press back up with a straight body."
+  },
+  {
+    "name": "Dumbbell Overhead Triceps Extension",
+    "muscle": "triceps",
+    "goals": [
+      "muscle_gain",
+      "general_fitness"
+    ],
+    "level": "beginner",
+    "equipment": "dumbbells",
+    "workout_type": "isolation",
+    "sets": 3,
+    "reps": "10-12",
+    "rest_seconds": 60,
+    "instructions": "Hold one dumbbell overhead with both hands. Bend your elbows to lower the weight behind your head while keeping your upper arms still. Extend your arms to return to the start."
+  },
+  {
+    "name": "Dumbbell Kickback",
+    "muscle": "triceps",
+    "goals": [
+      "muscle_gain",
+      "general_fitness"
+    ],
+    "level": "beginner",
+    "equipment": "dumbbells",
+    "workout_type": "isolation",
+    "sets": 3,
+    "reps": "12-15",
+    "rest_seconds": 45,
+    "instructions": "Hinge forward with one hand and knee on a bench, holding a dumbbell with the elbow bent at your side. Extend your arm straight behind you without moving your upper arm. Return with control."
+  },
+  {
+    "name": "Skull Crusher",
+    "muscle": "triceps",
+    "goals": [
+      "muscle_gain",
+      "general_fitness"
+    ],
+    "level": "intermediate",
+    "equipment": "barbell",
+    "workout_type": "isolation",
+    "sets": 3,
+    "reps": "8-10",
+    "rest_seconds": 75,
+    "instructions": "Lie on a bench holding a barbell above your chest with arms straight. Bend your elbows to lower the bar toward your forehead while keeping your upper arms still. Extend back to the start."
+  },
+  {
+    "name": "Close-Grip Bench Press",
+    "muscle": "triceps",
+    "goals": [
+      "muscle_gain",
+      "strength",
+      "general_fitness"
+    ],
+    "level": "advanced",
+    "equipment": "barbell",
+    "workout_type": "compound",
+    "sets": 4,
+    "reps": "5-8",
+    "rest_seconds": 120,
+    "instructions": "Lie on a bench and grip the bar slightly narrower than shoulder width. Lower the bar to your lower chest with elbows tucked. Press back up and use a spotter for heavy sets."
+  },
+  {
+    "name": "Cable Triceps Pushdown",
+    "muscle": "triceps",
+    "goals": [
+      "muscle_gain",
+      "general_fitness"
+    ],
+    "level": "beginner",
+    "equipment": "cable",
+    "workout_type": "isolation",
+    "sets": 3,
+    "reps": "10-15",
+    "rest_seconds": 60,
+    "instructions": "Stand facing a high cable with elbows at your sides and hands on the bar. Push the bar down until your arms are straight. Return slowly without letting your elbows flare."
+  },
+  {
+    "name": "Band Triceps Pushdown",
+    "muscle": "triceps",
+    "goals": [
+      "muscle_gain",
+      "general_fitness"
+    ],
+    "level": "beginner",
+    "equipment": "bands",
+    "workout_type": "isolation",
+    "sets": 3,
+    "reps": "12-15",
+    "rest_seconds": 45,
+    "instructions": "Anchor a band overhead and hold the handles with elbows at your sides. Press your hands down until your arms are straight. Return slowly with control."
+  },
+  {
+    "name": "Overhead Band Triceps Extension",
+    "muscle": "triceps",
+    "goals": [
+      "muscle_gain",
+      "general_fitness"
+    ],
+    "level": "beginner",
+    "equipment": "bands",
+    "workout_type": "isolation",
+    "sets": 3,
+    "reps": "10-12",
+    "rest_seconds": 45,
+    "instructions": "Stand on one end of the band and hold the other end overhead with both hands, elbows bent. Straighten your arms overhead while keeping your elbows close to your head. Lower slowly with control."
+  },
+  {
+    "name": "Bodyweight Squat",
+    "muscle": "quads",
+    "goals": [
+      "muscle_gain",
+      "strength",
+      "general_fitness",
+      "endurance",
+      "weight_management"
+    ],
+    "level": "beginner",
+    "equipment": "none",
+    "workout_type": "compound",
+    "sets": 3,
+    "reps": "12-15",
+    "rest_seconds": 60,
+    "instructions": "Stand with feet about shoulder width apart and toes slightly turned out. Sit your hips back and down as if into a chair, keeping your chest tall. Stand back up through your heels."
+  },
+  {
+    "name": "Wall Sit",
+    "muscle": "quads",
+    "goals": [
+      "muscle_gain",
+      "strength",
+      "general_fitness",
+      "endurance",
+      "weight_management"
+    ],
+    "level": "beginner",
+    "equipment": "none",
+    "workout_type": "compound",
+    "sets": 3,
+    "reps": "20-30 sec",
+    "rest_seconds": 60,
+    "instructions": "Lean your back against a wall and slide down until your knees are at about a 90-degree angle. Keep your feet flat and your back against the wall. Hold the position, then slowly stand up."
+  },
+  {
+    "name": "Bodyweight Split Squat",
+    "muscle": "quads",
+    "goals": [
+      "muscle_gain",
+      "strength",
+      "general_fitness",
+      "endurance",
+      "weight_management"
+    ],
+    "level": "beginner",
+    "equipment": "none",
+    "workout_type": "compound",
+    "sets": 3,
+    "reps": "8-10 each side",
+    "rest_seconds": 60,
+    "instructions": "Stand in a split stance with one foot forward and the other behind you. Lower your back knee toward the floor while keeping your torso upright. Push through the front foot to return."
+  },
+  {
+    "name": "Step-Up",
+    "muscle": "quads",
+    "goals": [
+      "muscle_gain",
+      "strength",
+      "general_fitness",
+      "endurance",
+      "weight_management"
+    ],
+    "level": "beginner",
+    "equipment": "none",
+    "workout_type": "compound",
+    "sets": 3,
+    "reps": "8-10 each side",
+    "rest_seconds": 60,
+    "instructions": "Stand facing a sturdy step or bench. Step up with one foot, press through that heel to stand tall, then step down slowly. Switch legs on each set."
+  },
+  {
+    "name": "Banded Squat",
+    "muscle": "quads",
+    "goals": [
+      "muscle_gain",
+      "strength",
+      "general_fitness",
+      "endurance",
+      "weight_management"
+    ],
+    "level": "beginner",
+    "equipment": "bands",
+    "workout_type": "compound",
+    "sets": 3,
+    "reps": "12-15",
+    "rest_seconds": 60,
+    "instructions": "Stand on a band with feet hip width apart and hold the ends at shoulder height. Squat down while keeping your knees tracking over your toes. Stand back up with control."
+  },
+  {
+    "name": "Goblet Squat",
+    "muscle": "quads",
+    "goals": [
+      "muscle_gain",
+      "strength",
+      "general_fitness",
+      "weight_management"
+    ],
+    "level": "beginner",
+    "equipment": "dumbbells",
+    "workout_type": "compound",
+    "sets": 3,
+    "reps": "10-12",
+    "rest_seconds": 75,
+    "instructions": "Hold one dumbbell vertically at your chest with both hands. Squat down with your elbows inside your knees and your chest tall. Stand back up through your heels."
+  },
+  {
+    "name": "Dumbbell Walking Lunge",
+    "muscle": "quads",
+    "goals": [
+      "muscle_gain",
+      "strength",
+      "general_fitness",
+      "weight_management"
+    ],
+    "level": "intermediate",
+    "equipment": "dumbbells",
+    "workout_type": "compound",
+    "sets": 3,
+    "reps": "10 each side",
+    "rest_seconds": 75,
+    "instructions": "Hold a dumbbell in each hand and step forward into a lunge. Lower your back knee toward the floor, then push off the front foot to step into the next lunge. Keep your torso upright."
+  },
+  {
+    "name": "Dumbbell Bulgarian Split Squat",
+    "muscle": "quads",
+    "goals": [
+      "muscle_gain",
+      "strength",
+      "general_fitness",
+      "weight_management"
+    ],
+    "level": "advanced",
+    "equipment": "dumbbells",
+    "workout_type": "compound",
+    "sets": 3,
+    "reps": "8-10 each side",
+    "rest_seconds": 90,
+    "instructions": "Rest the top of one foot on a bench behind you and hold dumbbells at your sides. Lower your back knee toward the floor while keeping your front knee tracking over your toes. Drive up through the front foot."
+  },
+  {
+    "name": "Jump Squat",
+    "muscle": "quads",
+    "goals": [
+      "general_fitness",
+      "endurance",
+      "weight_management"
+    ],
+    "level": "intermediate",
+    "equipment": "none",
+    "workout_type": "plyometric",
+    "sets": 3,
+    "reps": "8-10",
+    "rest_seconds": 60,
+    "instructions": "Start in a squat position with feet about hip width apart. Jump up explosively, land softly with bent knees, and lower straight into the next rep. Land quietly and keep your knees over your toes."
+  },
+  {
+    "name": "Barbell Back Squat",
+    "muscle": "quads",
+    "goals": [
+      "muscle_gain",
+      "strength",
+      "general_fitness",
+      "weight_management"
+    ],
+    "level": "intermediate",
+    "equipment": "barbell",
+    "workout_type": "compound",
+    "sets": 4,
+    "reps": "5-8",
+    "rest_seconds": 150,
+    "instructions": "Rest the bar across your upper back and brace your core. Squat down until your hips are at or below knee height, keeping your chest up. Drive through your whole foot to stand. Use safety bars or a rack for heavy sets."
+  },
+  {
+    "name": "Barbell Front Squat",
+    "muscle": "quads",
+    "goals": [
+      "muscle_gain",
+      "strength",
+      "general_fitness",
+      "weight_management"
+    ],
+    "level": "advanced",
+    "equipment": "barbell",
+    "workout_type": "compound",
+    "sets": 4,
+    "reps": "4-6",
+    "rest_seconds": 150,
+    "instructions": "Rest the bar on the front of your shoulders with elbows high. Squat down with your torso upright and core braced. Stand back up while keeping your elbows high."
+  },
+  {
+    "name": "Leg Press",
+    "muscle": "quads",
+    "goals": [
+      "muscle_gain",
+      "strength",
+      "general_fitness",
+      "weight_management"
+    ],
+    "level": "beginner",
+    "equipment": "machine",
+    "workout_type": "compound",
+    "sets": 3,
+    "reps": "10-12",
+    "rest_seconds": 90,
+    "instructions": "Sit in the machine with feet shoulder width apart on the platform. Lower the platform until your knees reach about 90 degrees, keeping your lower back against the pad. Press back up without locking your knees."
+  },
+  {
+    "name": "Leg Extension",
+    "muscle": "quads",
+    "goals": [
+      "muscle_gain",
+      "general_fitness"
+    ],
+    "level": "beginner",
+    "equipment": "machine",
+    "workout_type": "isolation",
+    "sets": 3,
+    "reps": "12-15",
+    "rest_seconds": 60,
+    "instructions": "Sit with the pad resting on your lower shins and grip the handles. Extend your knees until your legs are straight, then lower with control. Avoid using momentum."
+  },
+  {
+    "name": "Bodyweight Hip Hinge",
+    "muscle": "hamstrings",
+    "goals": [
+      "muscle_gain",
+      "strength",
+      "general_fitness",
+      "endurance",
+      "weight_management"
+    ],
+    "level": "beginner",
+    "equipment": "none",
+    "workout_type": "compound",
+    "sets": 2,
+    "reps": "10-12",
+    "rest_seconds": 45,
+    "instructions": "Stand tall with feet hip width apart and hands on your hips. Push your hips back while keeping a slight knee bend and a flat back. Return to standing by driving your hips forward."
+  },
+  {
+    "name": "Single-Leg Romanian Deadlift",
+    "muscle": "hamstrings",
+    "goals": [
+      "muscle_gain",
+      "strength",
+      "general_fitness",
+      "endurance",
+      "weight_management"
+    ],
+    "level": "intermediate",
+    "equipment": "none",
+    "workout_type": "compound",
+    "sets": 3,
+    "reps": "8-10 each side",
+    "rest_seconds": 60,
+    "instructions": "Stand on one leg with a slight knee bend and hinge forward while extending the other leg behind you. Keep your back flat and your hips square. Return to standing with control."
+  },
+  {
+    "name": "Dumbbell Romanian Deadlift",
+    "muscle": "hamstrings",
+    "goals": [
+      "muscle_gain",
+      "strength",
+      "general_fitness",
+      "weight_management"
+    ],
+    "level": "beginner",
+    "equipment": "dumbbells",
+    "workout_type": "compound",
+    "sets": 3,
+    "reps": "8-12",
+    "rest_seconds": 75,
+    "instructions": "Hold dumbbells in front of your thighs and hinge at the hips while keeping your back flat. Lower the weights along your legs until you feel a hamstring stretch. Drive your hips forward to stand."
+  },
+  {
+    "name": "Dumbbell Single-Leg RDL",
+    "muscle": "hamstrings",
+    "goals": [
+      "muscle_gain",
+      "strength",
+      "general_fitness",
+      "weight_management"
+    ],
+    "level": "advanced",
+    "equipment": "dumbbells",
+    "workout_type": "compound",
+    "sets": 3,
+    "reps": "8 each side",
+    "rest_seconds": 75,
+    "instructions": "Hold a dumbbell in one hand and balance on the opposite leg. Hinge at the hip while extending the free leg behind you and lowering the weight. Return to standing with control and keep your hips level."
+  },
+  {
+    "name": "Barbell Romanian Deadlift",
+    "muscle": "hamstrings",
+    "goals": [
+      "muscle_gain",
+      "strength",
+      "general_fitness",
+      "weight_management"
+    ],
+    "level": "intermediate",
+    "equipment": "barbell",
+    "workout_type": "compound",
+    "sets": 3,
+    "reps": "6-10",
+    "rest_seconds": 120,
+    "instructions": "Hold a barbell at hip height with a shoulder-width grip. Push your hips back, keeping the bar close to your legs and your back flat. Drive your hips forward to stand."
+  },
+  {
+    "name": "Kettlebell Deadlift",
+    "muscle": "hamstrings",
+    "goals": [
+      "muscle_gain",
+      "strength",
+      "general_fitness",
+      "weight_management"
+    ],
+    "level": "beginner",
+    "equipment": "kettlebell",
+    "workout_type": "compound",
+    "sets": 3,
+    "reps": "8-10",
+    "rest_seconds": 75,
+    "instructions": "Stand with the kettlebell between your feet and hinge to grip the handle. Keep your back flat and drive through your legs and hips to stand. Lower the kettlebell back to the floor under control."
+  },
+  {
+    "name": "Band Good Morning",
+    "muscle": "hamstrings",
+    "goals": [
+      "muscle_gain",
+      "strength",
+      "general_fitness",
+      "endurance",
+      "weight_management"
+    ],
+    "level": "beginner",
+    "equipment": "bands",
+    "workout_type": "compound",
+    "sets": 3,
+    "reps": "10-12",
+    "rest_seconds": 60,
+    "instructions": "Stand on a band with the other end over your shoulders. Hinge forward at the hips with a soft knee bend and a flat back. Return to standing by driving your hips forward."
+  },
+  {
+    "name": "Lying Leg Curl",
+    "muscle": "hamstrings",
+    "goals": [
+      "muscle_gain",
+      "general_fitness"
+    ],
+    "level": "beginner",
+    "equipment": "machine",
+    "workout_type": "isolation",
+    "sets": 3,
+    "reps": "10-12",
+    "rest_seconds": 60,
+    "instructions": "Lie face down on the machine with the pad just above your heels. Curl your heels toward your glutes, then lower slowly. Keep your hips pressed into the pad."
+  },
+  {
+    "name": "Standing Cable Leg Curl",
+    "muscle": "hamstrings",
+    "goals": [
+      "muscle_gain",
+      "general_fitness"
+    ],
+    "level": "intermediate",
+    "equipment": "cable",
+    "workout_type": "isolation",
+    "sets": 3,
+    "reps": "10-12 each side",
+    "rest_seconds": 60,
+    "instructions": "Attach an ankle strap to a low cable and stand holding a support. Curl your heel back toward your glute while keeping your torso still. Lower slowly and switch sides."
+  },
+  {
+    "name": "Bridge Hamstring Curl",
+    "muscle": "hamstrings",
+    "goals": [
+      "muscle_gain",
+      "general_fitness"
+    ],
+    "level": "intermediate",
+    "equipment": "none",
+    "workout_type": "isolation",
+    "sets": 3,
+    "reps": "8-12",
+    "rest_seconds": 60,
+    "instructions": "Lie on your back with heels on the floor and hips lifted into a bridge. Pull your heels toward your hips, then extend your legs without dropping your hips. Keep the movement controlled."
+  },
+  {
+    "name": "Band Leg Curl",
+    "muscle": "hamstrings",
+    "goals": [
+      "muscle_gain",
+      "general_fitness"
+    ],
+    "level": "beginner",
+    "equipment": "bands",
+    "workout_type": "isolation",
+    "sets": 3,
+    "reps": "10-12",
+    "rest_seconds": 45,
+    "instructions": "Lie face down and loop a band around one ankle, anchoring the other end to a sturdy fixed object in front of you. Curl your heel toward your glute against the band. Lower slowly and switch legs."
+  },
+  {
+    "name": "Glute Bridge",
+    "muscle": "glutes",
+    "goals": [
+      "muscle_gain",
+      "strength",
+      "general_fitness",
+      "endurance",
+      "weight_management"
+    ],
+    "level": "beginner",
+    "equipment": "none",
+    "workout_type": "compound",
+    "sets": 3,
+    "reps": "12-15",
+    "rest_seconds": 45,
+    "instructions": "Lie on your back with knees bent and feet flat on the floor. Squeeze your glutes and lift your hips until your body forms a straight line from shoulders to knees. Lower slowly."
+  },
+  {
+    "name": "Single-Leg Glute Bridge",
+    "muscle": "glutes",
+    "goals": [
+      "muscle_gain",
+      "strength",
+      "general_fitness",
+      "endurance",
+      "weight_management"
+    ],
+    "level": "intermediate",
+    "equipment": "none",
+    "workout_type": "compound",
+    "sets": 3,
+    "reps": "8-10 each side",
+    "rest_seconds": 60,
+    "instructions": "Lie on your back with one knee bent and the other leg extended. Lift your hips using the glutes of your bent leg. Lower with control and keep your hips level."
+  },
+  {
+    "name": "Donkey Kick",
+    "muscle": "glutes",
+    "goals": [
+      "muscle_gain",
+      "general_fitness"
+    ],
+    "level": "beginner",
+    "equipment": "none",
+    "workout_type": "isolation",
+    "sets": 2,
+    "reps": "12-15 each side",
+    "rest_seconds": 45,
+    "instructions": "Start on your hands and knees with a neutral spine. Kick one leg up toward the ceiling while keeping your knee bent. Lower with control without arching your lower back."
+  },
+  {
+    "name": "Fire Hydrant",
+    "muscle": "glutes",
+    "goals": [
+      "muscle_gain",
+      "general_fitness"
+    ],
+    "level": "beginner",
+    "equipment": "none",
+    "workout_type": "isolation",
+    "sets": 2,
+    "reps": "12 each side",
+    "rest_seconds": 30,
+    "instructions": "Start on your hands and knees with a neutral spine. Lift one knee out to the side while keeping your hips square. Lower slowly and switch sides."
+  },
+  {
+    "name": "Curtsy Lunge",
+    "muscle": "glutes",
+    "goals": [
+      "muscle_gain",
+      "strength",
+      "general_fitness",
+      "endurance",
+      "weight_management"
+    ],
+    "level": "intermediate",
+    "equipment": "none",
+    "workout_type": "compound",
+    "sets": 3,
+    "reps": "8-10 each side",
+    "rest_seconds": 60,
+    "instructions": "Stand tall with feet hip width apart. Step one leg behind and across the other, lowering into a lunge. Return to standing through your front heel."
+  },
+  {
+    "name": "Dumbbell Hip Thrust",
+    "muscle": "glutes",
+    "goals": [
+      "muscle_gain",
+      "strength",
+      "general_fitness",
+      "weight_management"
+    ],
+    "level": "intermediate",
+    "equipment": "dumbbells",
+    "workout_type": "compound",
+    "sets": 3,
+    "reps": "10-12",
+    "rest_seconds": 75,
+    "instructions": "Sit with your upper back against a bench and a dumbbell across your hips. Drive your hips up by squeezing your glutes until your body forms a line from shoulders to knees. Lower with control."
+  },
+  {
+    "name": "Barbell Hip Thrust",
+    "muscle": "glutes",
+    "goals": [
+      "muscle_gain",
+      "strength",
+      "general_fitness",
+      "weight_management"
+    ],
+    "level": "intermediate",
+    "equipment": "barbell",
+    "workout_type": "compound",
+    "sets": 4,
+    "reps": "8-10",
+    "rest_seconds": 90,
+    "instructions": "Sit with your upper back against a bench and the bar across your hips with a pad. Drive through your heels to lift the bar until your hips are fully extended. Lower with control and keep your chin tucked."
+  },
+  {
+    "name": "Barbell Sumo Deadlift",
+    "muscle": "glutes",
+    "goals": [
+      "muscle_gain",
+      "strength",
+      "general_fitness",
+      "weight_management"
+    ],
+    "level": "advanced",
+    "equipment": "barbell",
+    "workout_type": "compound",
+    "sets": 4,
+    "reps": "3-5",
+    "rest_seconds": 180,
+    "instructions": "Stand with a wide stance and the bar over mid-foot, toes turned out. Brace your core, keep your chest up, and drive through the floor while pushing your knees out. Lower the bar with control and reset between reps."
+  },
+  {
+    "name": "Cable Pull-Through",
+    "muscle": "glutes",
+    "goals": [
+      "muscle_gain",
+      "strength",
+      "general_fitness",
+      "weight_management"
+    ],
+    "level": "intermediate",
+    "equipment": "cable",
+    "workout_type": "compound",
+    "sets": 3,
+    "reps": "10-12",
+    "rest_seconds": 60,
+    "instructions": "Stand facing away from a low cable with the rope between your legs. Hinge at the hips, then drive them forward to stand tall, squeezing your glutes. Keep your back neutral throughout."
+  },
+  {
+    "name": "Cable Kickback",
+    "muscle": "glutes",
+    "goals": [
+      "muscle_gain",
+      "general_fitness"
+    ],
+    "level": "intermediate",
+    "equipment": "cable",
+    "workout_type": "isolation",
+    "sets": 3,
+    "reps": "10-12 each side",
+    "rest_seconds": 45,
+    "instructions": "Attach an ankle strap to a low cable and hold a support. Kick one leg straight back, squeezing your glute at the top. Return slowly without rotating your hips."
+  },
+  {
+    "name": "Band Lateral Walk",
+    "muscle": "glutes",
+    "goals": [
+      "muscle_gain",
+      "general_fitness"
+    ],
+    "level": "beginner",
+    "equipment": "bands",
+    "workout_type": "isolation",
+    "sets": 2,
+    "reps": "12 each side",
+    "rest_seconds": 30,
+    "instructions": "Place a band just above your knees and stand with a slight squat. Step sideways while keeping tension on the band and your toes forward. Take controlled steps and switch directions."
+  },
+  {
+    "name": "Machine Hip Abduction",
+    "muscle": "glutes",
+    "goals": [
+      "muscle_gain",
+      "general_fitness"
+    ],
+    "level": "beginner",
+    "equipment": "machine",
+    "workout_type": "isolation",
+    "sets": 3,
+    "reps": "12-15",
+    "rest_seconds": 45,
+    "instructions": "Sit in the machine with pads against the outside of your knees. Push your legs outward against the pads, then return slowly. Keep your torso upright and avoid rocking."
+  },
+  {
+    "name": "Crunch",
+    "muscle": "core",
+    "goals": [
+      "strength",
+      "general_fitness",
+      "endurance"
+    ],
+    "level": "beginner",
+    "equipment": "none",
+    "workout_type": "core",
+    "sets": 3,
+    "reps": "12-15",
+    "rest_seconds": 45,
+    "instructions": "Lie on your back with knees bent and hands lightly behind your head. Lift your shoulders off the floor by curling your upper body. Lower with control and keep your neck relaxed."
+  },
+  {
+    "name": "Plank",
+    "muscle": "core",
+    "goals": [
+      "strength",
+      "general_fitness",
+      "endurance"
+    ],
+    "level": "beginner",
+    "equipment": "none",
+    "workout_type": "core",
+    "sets": 3,
+    "reps": "20-30 sec",
+    "rest_seconds": 45,
+    "instructions": "Rest on your forearms and toes with your body in a straight line. Brace your abs and squeeze your glutes. Breathe steadily and stop if your lower back sags."
+  },
+  {
+    "name": "Dead Bug",
+    "muscle": "core",
+    "goals": [
+      "strength",
+      "general_fitness",
+      "endurance"
+    ],
+    "level": "beginner",
+    "equipment": "none",
+    "workout_type": "core",
+    "sets": 3,
+    "reps": "8-10 each side",
+    "rest_seconds": 45,
+    "instructions": "Lie on your back with arms reaching up and knees bent over your hips. Lower one arm and the opposite leg toward the floor while keeping your lower back gently pressed down. Return and switch sides."
+  },
+  {
+    "name": "Bird Dog",
+    "muscle": "core",
+    "goals": [
+      "strength",
+      "general_fitness",
+      "endurance"
+    ],
+    "level": "beginner",
+    "equipment": "none",
+    "workout_type": "core",
+    "sets": 3,
+    "reps": "8-10 each side",
+    "rest_seconds": 45,
+    "instructions": "Start on your hands and knees with a neutral spine. Extend one arm forward and the opposite leg back at the same time. Hold briefly, then return with control and switch sides."
+  },
+  {
+    "name": "Bicycle Crunch",
+    "muscle": "core",
+    "goals": [
+      "strength",
+      "general_fitness",
+      "endurance"
+    ],
+    "level": "beginner",
+    "equipment": "none",
+    "workout_type": "core",
+    "sets": 3,
+    "reps": "16-20",
+    "rest_seconds": 45,
+    "instructions": "Lie on your back with hands behind your head and knees bent. Bring one elbow toward the opposite knee while extending the other leg. Move slowly and keep your lower back controlled."
+  },
+  {
+    "name": "Side Plank",
+    "muscle": "core",
+    "goals": [
+      "strength",
+      "general_fitness",
+      "endurance"
+    ],
+    "level": "intermediate",
+    "equipment": "none",
+    "workout_type": "core",
+    "sets": 3,
+    "reps": "20-30 sec each side",
+    "rest_seconds": 45,
+    "instructions": "Lie on your side and prop yourself up on one forearm with knees straight or bent. Lift your hips so your body forms a line. Hold, then lower and switch sides."
+  },
+  {
+    "name": "Russian Twist",
+    "muscle": "core",
+    "goals": [
+      "strength",
+      "general_fitness",
+      "endurance",
+      "weight_management"
+    ],
+    "level": "intermediate",
+    "equipment": "none",
+    "workout_type": "core",
+    "sets": 3,
+    "reps": "16-20",
+    "rest_seconds": 45,
+    "instructions": "Sit with knees bent and lean back slightly while keeping your back straight. Rotate your torso side to side, touching the floor beside your hips. Keep your movements controlled."
+  },
+  {
+    "name": "Hollow Body Hold",
+    "muscle": "core",
+    "goals": [
+      "strength",
+      "general_fitness",
+      "endurance"
+    ],
+    "level": "advanced",
+    "equipment": "none",
+    "workout_type": "core",
+    "sets": 3,
+    "reps": "20-30 sec",
+    "rest_seconds": 45,
+    "instructions": "Lie on your back and lift your head, shoulders, and legs slightly off the floor. Press your lower back into the floor and hold the position. Lower your legs if your back arches."
+  },
+  {
+    "name": "Hanging Knee Raise",
+    "muscle": "core",
+    "goals": [
+      "muscle_gain",
+      "strength",
+      "general_fitness",
+      "endurance"
+    ],
+    "level": "intermediate",
+    "equipment": "pullup_bar",
+    "workout_type": "core",
+    "sets": 3,
+    "reps": "10-12",
+    "rest_seconds": 60,
+    "instructions": "Hang from a pull-up bar with a relaxed grip. Raise your knees toward your chest by curling your pelvis up. Lower slowly without swinging."
+  },
+  {
+    "name": "Machine Crunch",
+    "muscle": "core",
+    "goals": [
+      "muscle_gain",
+      "strength",
+      "general_fitness",
+      "endurance"
+    ],
+    "level": "beginner",
+    "equipment": "machine",
+    "workout_type": "core",
+    "sets": 3,
+    "reps": "12-15",
+    "rest_seconds": 45,
+    "instructions": "Sit in the crunch machine and grip the handles or pad. Curl your torso forward using your abs, then return slowly. Keep your hips still."
+  },
+  {
+    "name": "Cable Crunch",
+    "muscle": "core",
+    "goals": [
+      "muscle_gain",
+      "strength",
+      "general_fitness",
+      "endurance"
+    ],
+    "level": "intermediate",
+    "equipment": "cable",
+    "workout_type": "core",
+    "sets": 3,
+    "reps": "10-12",
+    "rest_seconds": 60,
+    "instructions": "Kneel facing a high cable with the rope behind your head. Crunch your ribs toward your hips, rounding your upper back. Return slowly under control."
+  },
+  {
+    "name": "Cable Woodchop",
+    "muscle": "core",
+    "goals": [
+      "strength",
+      "general_fitness",
+      "endurance"
+    ],
+    "level": "intermediate",
+    "equipment": "cable",
+    "workout_type": "core",
+    "sets": 3,
+    "reps": "10-12 each side",
+    "rest_seconds": 45,
+    "instructions": "Set a cable at high height and stand sideways holding the handle with both hands. Pull diagonally down across your body, rotating your torso. Return slowly and switch sides."
+  },
+  {
+    "name": "Landmine Rotation",
+    "muscle": "core",
+    "goals": [
+      "strength",
+      "general_fitness",
+      "endurance"
+    ],
+    "level": "intermediate",
+    "equipment": "barbell",
+    "workout_type": "core",
+    "sets": 3,
+    "reps": "8-10 each side",
+    "rest_seconds": 60,
+    "instructions": "Place one end of a barbell in a corner or landmine and hold the other end at your chest. Rotate the bar in an arc from one side to the other while keeping your hips still. Control the bar on each side."
+  },
+  {
+    "name": "Calf Raise",
+    "muscle": "calves",
+    "goals": [
+      "muscle_gain",
+      "general_fitness"
+    ],
+    "level": "beginner",
+    "equipment": "none",
+    "workout_type": "isolation",
+    "sets": 3,
+    "reps": "15-20",
+    "rest_seconds": 45,
+    "instructions": "Stand with feet hip width apart near a wall or stair for balance. Rise onto the balls of your feet, pause, then lower slowly. Keep your knees straight but not locked."
+  },
+  {
+    "name": "Dumbbell Calf Raise",
+    "muscle": "calves",
+    "goals": [
+      "muscle_gain",
+      "general_fitness"
+    ],
+    "level": "beginner",
+    "equipment": "dumbbells",
+    "workout_type": "isolation",
+    "sets": 3,
+    "reps": "12-15",
+    "rest_seconds": 45,
+    "instructions": "Hold dumbbells at your sides and stand on the edge of a step. Rise onto your toes, pause briefly, then lower your heels below the step. Keep your posture tall."
+  },
+  {
+    "name": "Seated Calf Raise",
+    "muscle": "calves",
+    "goals": [
+      "muscle_gain",
+      "general_fitness"
+    ],
+    "level": "intermediate",
+    "equipment": "machine",
+    "workout_type": "isolation",
+    "sets": 3,
+    "reps": "12-15",
+    "rest_seconds": 60,
+    "instructions": "Sit in the machine with the pad over your thighs and the balls of your feet on the platform. Press up onto your toes, then lower slowly to a full stretch. Avoid bouncing."
+  },
+  {
+    "name": "Inchworm",
+    "muscle": "full_body",
+    "goals": [
+      "general_fitness"
+    ],
+    "level": "beginner",
+    "equipment": "none",
+    "workout_type": "mobility",
+    "sets": 2,
+    "reps": "6-8",
+    "rest_seconds": 45,
+    "instructions": "Stand tall, then hinge forward and walk your hands out to a plank. Walk your feet toward your hands and stand back up. Keep your legs as straight as is comfortable."
+  },
+  {
+    "name": "Band Squat-to-Press",
+    "muscle": "full_body",
+    "goals": [
+      "muscle_gain",
+      "strength",
+      "general_fitness",
+      "endurance",
+      "weight_management"
+    ],
+    "level": "beginner",
+    "equipment": "bands",
+    "workout_type": "compound",
+    "sets": 3,
+    "reps": "10-12",
+    "rest_seconds": 60,
+    "instructions": "Stand on a band holding the handles at shoulder height. Squat down, then stand up and press the handles overhead. Lower back to shoulder height and repeat."
+  },
+  {
+    "name": "Dumbbell Thruster",
+    "muscle": "full_body",
+    "goals": [
+      "muscle_gain",
+      "strength",
+      "general_fitness",
+      "endurance",
+      "weight_management"
+    ],
+    "level": "intermediate",
+    "equipment": "dumbbells",
+    "workout_type": "compound",
+    "sets": 3,
+    "reps": "8-10",
+    "rest_seconds": 75,
+    "instructions": "Hold dumbbells at your shoulders and squat down. Drive up through your legs and press the weights overhead in one fluid motion. Lower the weights back to your shoulders and repeat."
+  },
+  {
+    "name": "Dumbbell Push Press",
+    "muscle": "full_body",
+    "goals": [
+      "muscle_gain",
+      "strength",
+      "general_fitness",
+      "weight_management"
+    ],
+    "level": "intermediate",
+    "equipment": "dumbbells",
+    "workout_type": "compound",
+    "sets": 3,
+    "reps": "6-8",
+    "rest_seconds": 75,
+    "instructions": "Hold dumbbells at shoulder height with a slight knee dip. Drive through your legs and press the weights overhead. Lower them back to your shoulders under control."
+  },
+  {
+    "name": "Barbell Thruster",
+    "muscle": "full_body",
+    "goals": [
+      "muscle_gain",
+      "strength",
+      "general_fitness",
+      "weight_management"
+    ],
+    "level": "advanced",
+    "equipment": "barbell",
+    "workout_type": "compound",
+    "sets": 4,
+    "reps": "5-6",
+    "rest_seconds": 120,
+    "instructions": "Hold a barbell at your shoulders and squat down with an upright torso. Stand and use that momentum to press the bar overhead. Lower it back to your shoulders and repeat."
+  },
+  {
+    "name": "Kettlebell Turkish Get-Up",
+    "muscle": "full_body",
+    "goals": [
+      "muscle_gain",
+      "strength",
+      "general_fitness",
+      "weight_management"
+    ],
+    "level": "advanced",
+    "equipment": "kettlebell",
+    "workout_type": "compound",
+    "sets": 2,
+    "reps": "2-3 each side",
+    "rest_seconds": 90,
+    "instructions": "Lie on your back holding a kettlebell overhead in one hand. Move slowly through each step to stand, keeping your eyes on the weight. Reverse the sequence to return to the floor."
+  },
+  {
+    "name": "Jumping Jacks",
+    "muscle": "full_body",
+    "goals": [
+      "general_fitness",
+      "endurance",
+      "weight_management"
+    ],
+    "level": "beginner",
+    "equipment": "none",
+    "workout_type": "cardio",
+    "sets": 3,
+    "reps": "30-45 sec",
+    "rest_seconds": 30,
+    "instructions": "Stand with feet together and arms at your sides. Jump your feet apart while raising your arms overhead, then jump back to the start. Land softly on the balls of your feet."
+  },
+  {
+    "name": "High Knees",
+    "muscle": "full_body",
+    "goals": [
+      "general_fitness",
+      "endurance",
+      "weight_management"
+    ],
+    "level": "beginner",
+    "equipment": "none",
+    "workout_type": "cardio",
+    "sets": 3,
+    "reps": "30 sec",
+    "rest_seconds": 30,
+    "instructions": "Stand tall and run in place, driving each knee up toward hip height. Pump your arms in rhythm with your legs. Keep your core engaged and land lightly."
+  },
+  {
+    "name": "Mountain Climbers",
+    "muscle": "full_body",
+    "goals": [
+      "general_fitness",
+      "endurance",
+      "weight_management"
+    ],
+    "level": "beginner",
+    "equipment": "none",
+    "workout_type": "cardio",
+    "sets": 3,
+    "reps": "30 sec",
+    "rest_seconds": 30,
+    "instructions": "Start in a high plank with hands under your shoulders. Drive one knee toward your chest, then switch legs quickly. Keep your hips level and your core braced."
+  },
+  {
+    "name": "Shadow Boxing",
+    "muscle": "full_body",
+    "goals": [
+      "general_fitness",
+      "endurance",
+      "weight_management"
+    ],
+    "level": "beginner",
+    "equipment": "none",
+    "workout_type": "cardio",
+    "sets": 3,
+    "reps": "60-90 sec",
+    "rest_seconds": 30,
+    "instructions": "Stand with a staggered stance and hands up near your face. Throw light punches in combinations while staying on the balls of your feet. Keep your breathing steady."
+  },
+  {
+    "name": "Burpees",
+    "muscle": "full_body",
+    "goals": [
+      "general_fitness",
+      "endurance",
+      "weight_management"
+    ],
+    "level": "intermediate",
+    "equipment": "none",
+    "workout_type": "cardio",
+    "sets": 3,
+    "reps": "8-10",
+    "rest_seconds": 60,
+    "instructions": "Stand tall, then squat and place your hands on the floor. Jump or step your feet back into a plank, then return them to the squat. Stand up and jump lightly to finish."
+  },
+  {
+    "name": "Bear Crawl",
+    "muscle": "full_body",
+    "goals": [
+      "general_fitness",
+      "endurance",
+      "weight_management"
+    ],
+    "level": "intermediate",
+    "equipment": "none",
+    "workout_type": "cardio",
+    "sets": 3,
+    "reps": "20-30 sec",
+    "rest_seconds": 45,
+    "instructions": "Start on your hands and feet with your knees hovering just above the floor. Crawl forward by moving the opposite hand and foot together. Keep your back flat and your hips low."
+  },
+  {
+    "name": "Skater Hops",
+    "muscle": "full_body",
+    "goals": [
+      "general_fitness",
+      "endurance",
+      "weight_management"
+    ],
+    "level": "intermediate",
+    "equipment": "none",
+    "workout_type": "plyometric",
+    "sets": 3,
+    "reps": "30-45 sec",
+    "rest_seconds": 45,
+    "instructions": "Stand on one leg and hop sideways to land on the opposite leg. Swing your free leg behind you for balance. Land softly and keep your knee soft."
+  },
+  {
+    "name": "Star Jumps",
+    "muscle": "full_body",
+    "goals": [
+      "general_fitness",
+      "endurance",
+      "weight_management"
+    ],
+    "level": "intermediate",
+    "equipment": "none",
+    "workout_type": "plyometric",
+    "sets": 3,
+    "reps": "30 sec",
+    "rest_seconds": 45,
+    "instructions": "Start in a squat with arms by your sides. Jump up and spread your arms and legs into a star shape. Land softly back into the squat."
+  },
+  {
+    "name": "Tuck Jumps",
+    "muscle": "full_body",
+    "goals": [
+      "general_fitness",
+      "endurance",
+      "weight_management"
+    ],
+    "level": "advanced",
+    "equipment": "none",
+    "workout_type": "plyometric",
+    "sets": 3,
+    "reps": "6-8",
+    "rest_seconds": 90,
+    "instructions": "Stand tall and jump explosively, bringing your knees toward your chest. Land softly with bent knees and reset before the next rep. Stop the set if your form breaks down."
+  },
+  {
+    "name": "Lateral Bounds",
+    "muscle": "full_body",
+    "goals": [
+      "general_fitness",
+      "endurance",
+      "weight_management"
+    ],
+    "level": "advanced",
+    "equipment": "none",
+    "workout_type": "plyometric",
+    "sets": 3,
+    "reps": "6-8 each side",
+    "rest_seconds": 90,
+    "instructions": "Stand on one leg and bound sideways to land on the opposite leg. Hold the landing briefly, then bound back. Land softly with control."
+  },
+  {
+    "name": "Kettlebell Swing",
+    "muscle": "full_body",
+    "goals": [
+      "strength",
+      "general_fitness",
+      "endurance",
+      "weight_management"
+    ],
+    "level": "intermediate",
+    "equipment": "kettlebell",
+    "workout_type": "cardio",
+    "sets": 3,
+    "reps": "12-15",
+    "rest_seconds": 60,
+    "instructions": "Stand with feet wider than shoulder width and grip a kettlebell with both hands. Hinge at the hips and swing the bell back between your legs. Snap your hips forward to swing it to chest height, keeping your back flat."
+  },
+  {
+    "name": "Rowing Machine Intervals",
+    "muscle": "full_body",
+    "goals": [
+      "general_fitness",
+      "endurance",
+      "weight_management"
+    ],
+    "level": "beginner",
+    "equipment": "machine",
+    "workout_type": "cardio",
+    "sets": 4,
+    "reps": "30-60 sec",
+    "rest_seconds": 60,
+    "instructions": "Sit on the rower with feet strapped in and grip the handle. Push with your legs first, then lean back slightly and pull the handle to your ribs. Return with control and recover between intervals."
+  },
+  {
+    "name": "Stationary Bike Intervals",
+    "muscle": "full_body",
+    "goals": [
+      "general_fitness",
+      "endurance",
+      "weight_management"
+    ],
+    "level": "beginner",
+    "equipment": "machine",
+    "workout_type": "cardio",
+    "sets": 4,
+    "reps": "30-60 sec",
+    "rest_seconds": 60,
+    "instructions": "Adjust the seat so your knee is slightly bent at the bottom of each pedal stroke. Pedal at a hard but controlled pace during each interval. Recover at an easy pace between intervals."
+  },
+  {
+    "name": "Barbell Clean",
+    "muscle": "full_body",
+    "goals": [
+      "strength",
+      "general_fitness",
+      "endurance",
+      "weight_management"
+    ],
+    "level": "advanced",
+    "equipment": "barbell",
+    "workout_type": "plyometric",
+    "sets": 4,
+    "reps": "3-5",
+    "rest_seconds": 150,
+    "instructions": "Start with the bar over mid-foot and grip it just outside your legs. Drive through your legs and pull the bar up, then catch it at shoulder height in a partial squat. Stand up fully and lower the bar with control. Practice with light weight first."
+  },
+  {
+    "name": "Incline Pike Push-Up",
+    "muscle": "shoulders",
+    "goals": [
+      "strength",
+      "muscle_gain",
+      "general_fitness",
+      "endurance"
+    ],
+    "level": "beginner",
+    "equipment": "none",
+    "workout_type": "compound",
+    "sets": 3,
+    "reps": "6-10",
+    "rest_seconds": 75,
+    "instructions": "Place your hands on a sturdy bench or step and walk your feet in so your hips lift into an inverted V. Bend your elbows to lower the top of your head toward the bench, then press back up. Keep your core braced and move slowly."
+  },
+  {
+    "name": "Single-Leg Weighted Calf Raise",
+    "muscle": "calves",
+    "goals": [
+      "muscle_gain",
+      "strength",
+      "general_fitness"
+    ],
+    "level": "advanced",
+    "equipment": "dumbbells",
+    "workout_type": "isolation",
+    "sets": 4,
+    "reps": "10-12 each side",
+    "rest_seconds": 60,
+    "instructions": "Stand on one foot on the edge of a step holding a dumbbell on the same side, lightly touching a wall for balance. Lower the heel below the step for a full stretch, then rise as high as possible onto the ball of the foot and pause. Complete all reps, then switch sides."
+  }
+]

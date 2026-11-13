@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>FitNova — Smart Fitness Assistant</title>
+  <meta name="description" content="FitNova — personal fitness intelligence: personalised workout plans, completion tracking, progress and vitals.">
+  <meta name="theme-color" content="#090B0E">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="FitNova">
+  <link rel="manifest" href="/manifest.webmanifest">
+  <link rel="icon" type="image/svg+xml" href="/icons/icon.svg">
+  <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap">
+  <link rel="stylesheet" href="/css/app.css">
+</head>
+<body>
+  <div class="shell" id="shell">
+    <aside class="sidebar" aria-label="Primary">
+      <a class="brand" href="#/" aria-label="FitNova home">
+        <span class="brand-mark" data-icon="logo"></span>
+        <span><span class="brand-name">Fit<b>Nova</b></span><br><span class="brand-tag">Personal Fitness Intelligence</span></span>
+      </a>
+      <nav class="nav" id="side-nav"></nav>
+      <div class="sidebar-foot" id="side-profile"></div>
+    </aside>
+
+    <header class="appbar">
+      <a class="brand" href="#/" aria-label="FitNova home">
+        <span class="brand-mark" data-icon="logo"></span>
+        <span><span class="brand-name">Fit<b>Nova</b></span><br><span class="brand-tag">Personal Fitness Intelligence</span></span>
+      </a>
+      <a class="avatar-btn" id="appbar-avatar" href="#/profile" aria-label="Your profile">·</a>
+    </header>
+
+    <div class="main">
+      <main class="view" id="view" tabindex="-1"></main>
+    </div>
+
+    <nav class="tabbar" id="tab-nav" aria-label="Primary"></nav>
+  </div>
+  <div class="toasts" id="toasts" role="status" aria-live="polite"></div>
+  <script type="module" src="/js/app.js"></script>
+</body>
+</html>
