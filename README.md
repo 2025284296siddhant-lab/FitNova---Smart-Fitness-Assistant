@@ -40,6 +40,30 @@ In Chrome on Android you can then choose **Add to Home screen** (or **Install ap
 FitNova full-screen like a native app. Full PWA install and offline caching need HTTPS or
 `localhost`; over a plain LAN address it runs as a normal mobile web app.
 
+### Android app (APK)
+
+**`dist/FitNova-1.0.apk`** is a standalone Android app for Android 7.0+ (arm64, armv7 and x86_64). It works fully offline with no PC needed:
+- It bundles the same Python backend and SQLite database using [Chaquopy](https://chaquo.com/chaquopy/), an open-source Python-for-Android plugin.
+- The UI is shown full-screen in a WebView. The app starts its own server on `127.0.0.1:47615` and stores all data privately on the phone.
+- Data is excluded from cloud backups.
+
+**Install on a phone:** copy the APK to the phone and open it. Android will ask you to allow installing from that source (the "unknown apps" permission). The APK is signed with a debug key: fine for sideloading, not for the Play Store.
+
+**Build it yourself.** Needs JDK 17+ and the Android SDK; `android/local.properties` points at the SDK. Run:
+
+```bash
+cd android
+gradle assembleRelease
+```
+
+The output is `android/app/build/outputs/apk/release/app-release.apk`.
+
+**Run it in the Android emulator.** This needs *Windows Hypervisor Platform* enabled under *Turn Windows features on or off* (then reboot). The script below boots an Android 14 emulator, installs the APK, launches it and checks that the on-device server responds:
+
+```bash
+powershell -ExecutionPolicy Bypass -File android\run-emulator.ps1
+```
+
 Run the tests:
 
 ```bash
@@ -142,6 +166,18 @@ All charts are hand-built SVG (`web/js/charts.js`) with no external chart librar
 - ✅ No JavaScript errors in the console. The only console entries were HTTP 409/400 responses from deliberate invalid-input tests.
 
 ---
+
+**Android APK verification (2026-11-14):**
+- ✅ The Gradle project compiles: `assembleDebug` and `assembleRelease` both succeed.
+- ✅ Android lint: **no issues found**.
+- ✅ The release APK passes `apksigner verify`. `aapt2` confirms the package (app.fitnova 1.0), SDK levels (min 24, target 34), the launcher activity and native code for arm64-v8a, armeabi-v7a and x86_64.
+- ✅ All 75 tests pass on **Python 3.11.9**, the interpreter Chaquopy bundles in the APK.
+- ✅ **APK runtime test.** The release APK's own assets and its packaged `fitnova_boot.py` were extracted and started the same way `MainActivity` does, under Python 3.11.
+  - The server came up (schema v2, 132 exercises), and every app asset returned HTTP 200.
+  - Full journey at phone size with an Android user agent: onboarding with imperial units and an under-18 profile (BMI shown with no adult category), generate and save a plan (equipment limit respected), log a partial session, Progress diamond at 30 min, add a °F temperature reading.
+  - After a force-stop and relaunch, all data persisted.
+  - A stale profile key (the cleared-app-data case) correctly returns to onboarding.
+- ⚠️ **Not run on a real Android emulator on this PC.** Windows Hypervisor Platform is disabled, and enabling it needs admin rights and a reboot. Emulator 37 refuses ARM system images on x86 hosts, and x86 images require hardware acceleration. `android/run-emulator.ps1` and an Android 14 x86_64 image are ready for when acceleration is enabled.
 
 ## 6. Limitations
 

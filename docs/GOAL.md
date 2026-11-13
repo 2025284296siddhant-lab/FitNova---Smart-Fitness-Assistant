@@ -30,3 +30,19 @@
 - [x] Responsive at 375px, 768px, 1280px with no overflow or broken images.
 - [x] `README.md` final summary: features, DB structure, charts, tests + outcomes, limitations,
       run instructions.
+
+# Goal v1.1 — Android app (set 2026-11-14)
+
+**A working, tested Android APK of FitNova** that runs fully offline on the phone (bundled
+Python backend via Chaquopy + WebView), verified on an Android emulator or the closest
+equivalent environment available on this machine.
+
+- [x] `android/` Gradle project compiles (`gradle assembleDebug` / `assembleRelease`) with no errors.
+- [~] APK installs on an emulator; app launches, server starts, Home renders (no crash, no blank screen).
+      *Real emulator blocked (no hardware acceleration on this PC; see README). Verified instead by running
+      the APK's own extracted code under Python 3.11 (Chaquopy's version) + Chromium at phone size.*
+- [x] On-device journey: create profile → create & save plan → mark session complete → Progress
+      scatter shows the point → add a vitals reading → trends/history show it.
+- [x] Data persists after force-stopping and relaunching the app.
+- [~] Back button navigates within the app; external links open outside it. *(Implemented in MainActivity; needs a device/emulator to exercise.)*
+- [x] Final APK copied to `dist/FitNova-1.0.apk`, README updated with install steps.

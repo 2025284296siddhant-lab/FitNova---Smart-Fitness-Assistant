@@ -103,6 +103,24 @@ async function router() {
   if (document.activeElement && document.activeElement !== document.body && !view.contains(document.activeElement)) view.focus({ preventScroll: true });
 }
 
+// Mirror :checked state onto labels as .is-checked so selected chips render on web engines without
+// CSS :has() (older Android System WebView versions).
+let syncQueued = false;
+function syncChecked() {
+  if (syncQueued) return;
+  syncQueued = true;
+  requestAnimationFrame(() => {
+    syncQueued = false;
+    document.querySelectorAll("label input[type=radio], label input[type=checkbox]").forEach((i) => {
+      const l = i.closest("label");
+      if (l) l.classList.toggle("is-checked", i.checked);
+    });
+  });
+}
+document.addEventListener("change", syncChecked);
+document.addEventListener("click", syncChecked);
+new MutationObserver(syncChecked).observe(document.body, { childList: true, subtree: true });
+
 window.addEventListener("fitnova:auth-lost", () => {
   setToken(null);
   ctx.user = null;
@@ -111,6 +129,7 @@ window.addEventListener("fitnova:auth-lost", () => {
 });
 
 async function boot() {
+  document.getElementById("legacy-notice")?.remove();
   document.querySelectorAll("[data-icon='logo']").forEach((n) => (n.innerHTML = icon("logo")));
   await ctx.refreshUser();
   if (getToken() && !ctx.user) {

@@ -1,0 +1,61 @@
+plugins {
+    id 'com.android.application'
+    id 'com.chaquo.python'
+}
+
+android {
+    namespace 'app.fitnova'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId 'app.fitnova'
+        minSdk 24
+        targetSdk 34
+        versionCode 1
+        versionName '1.0'
+        ndk {
+            // Phones (arm64 / older 32-bit arm) and x86_64 emulators.
+            abiFilters 'arm64-v8a', 'armeabi-v7a', 'x86_64'
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            // Signed with the debug key so the APK can be sideloaded without a keystore.
+            signingConfig signingConfigs.debug
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+
+    sourceSets {
+        main {
+            assets.srcDirs += ["$buildDir/generated/fitnova-assets"]
+        }
+    }
+}
+
+chaquopy {
+    defaultConfig {
+        version = "3.11"
+        // Ship .py sources; no build-machine Python of the same version is required.
+        pyc { src = false }
+    }
+}
+
+// Copy the FitNova backend and web app (repo root server/ and web/) into the APK assets.
+tasks.register('syncFitnova', Sync) {
+    from(rootProject.file('../server')) {
+        into 'fitnova/server'
+        exclude '**/__pycache__/**', '**/*.pyc'
+    }
+    from(rootProject.file('../web')) {
+        into 'fitnova/web'
+    }
+    into "$buildDir/generated/fitnova-assets"
+}
+tasks.named('preBuild') { dependsOn 'syncFitnova' }

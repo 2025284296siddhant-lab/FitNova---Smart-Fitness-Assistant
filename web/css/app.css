@@ -54,7 +54,7 @@ body {
 /* Atmosphere: graphite gradient + topographic contours, fixed behind everything */
 body::before {
   content: "";
-  position: fixed; inset: 0; z-index: -2;
+  position: fixed; top: 0; right: 0; bottom: 0; left: 0; z-index: -2;
   background:
     radial-gradient(1200px 700px at 85% -10%, rgba(59, 139, 255, 0.10), transparent 60%),
     radial-gradient(900px 600px at -10% 110%, rgba(46, 230, 255, 0.07), transparent 60%),
@@ -62,7 +62,7 @@ body::before {
 }
 body::after {
   content: "";
-  position: fixed; inset: 0; z-index: -1; pointer-events: none;
+  position: fixed; top: 0; right: 0; bottom: 0; left: 0; z-index: -1; pointer-events: none;
   background: url("../img/topo.svg") center / cover no-repeat;
   opacity: .9;
   mask-image: radial-gradient(ellipse at 60% 40%, #000 30%, rgba(0,0,0,.55) 75%, rgba(0,0,0,.35));
@@ -138,7 +138,7 @@ p { margin: 0; }
   .appbar { display: none; }
   .tabbar { display: none; }
   .sidebar {
-    display: flex; flex-direction: column; position: fixed; inset: 0 auto 0 0; width: var(--sidebar-w); z-index: 30;
+    display: flex; flex-direction: column; position: fixed; top: 0; right: auto; bottom: 0; left: 0; width: var(--sidebar-w); z-index: 30;
     padding: 26px 16px 20px; background: rgba(10, 12, 15, 0.82); border-right: 1px solid var(--line);
     backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px);
   }
@@ -196,7 +196,7 @@ p { margin: 0; }
 .card.interactive { cursor: pointer; transition: transform .2s var(--ease), border-color .2s, box-shadow .2s; }
 .card.interactive:hover { transform: translateY(-2px); border-color: rgba(46,230,255,.3); }
 .card-accent::after {
-  content: ""; position: absolute; inset: 0 0 auto 0; height: 1px; border-radius: var(--radius) var(--radius) 0 0;
+  content: ""; position: absolute; top: 0; right: 0; bottom: auto; left: 0; height: 1px; border-radius: var(--radius) var(--radius) 0 0;
   background: linear-gradient(90deg, transparent, rgba(46,230,255,.6), transparent);
 }
 
@@ -266,6 +266,8 @@ p { margin: 0; }
 .chip .chip-text b { font-weight: 600; font-size: 14px; }
 .chip .chip-text small { color: var(--text-3); font-size: 12px; }
 .chip:hover { border-color: rgba(255,255,255,.22); }
+.chip.is-checked { border-color: var(--accent); background: var(--accent-soft); box-shadow: inset 0 0 0 1px rgba(46,230,255,.25); }
+.chip.is-checked svg { color: var(--accent); }
 .chip:has(input:checked) { border-color: var(--accent); background: var(--accent-soft); box-shadow: inset 0 0 0 1px rgba(46,230,255,.25); }
 .chip:has(input:checked) svg { color: var(--accent); }
 .chip:has(input:focus-visible) { outline: 2px solid var(--accent); outline-offset: 2px; }
@@ -278,17 +280,18 @@ p { margin: 0; }
 }
 .seg input { position: absolute; opacity: 0; pointer-events: none; }
 .seg button:hover, .seg label:hover { color: var(--text); }
-.seg button.active, .seg label:has(input:checked) { background: var(--surface-3); color: var(--accent); box-shadow: inset 0 0 0 1px rgba(46,230,255,.3); }
+.seg button.active, .seg label.is-checked { background: var(--surface-3); color: var(--accent); box-shadow: inset 0 0 0 1px rgba(46,230,255,.3); }
 .seg label:has(input:focus-visible) { outline: 2px solid var(--accent); }
 
 /* day stepper 1-7 */
 .days { display: grid; grid-template-columns: repeat(7, 1fr); gap: 8px; }
 .days label {
-  position: relative; aspect-ratio: 1; max-height: 56px; display: grid; place-items: center; border-radius: 14px; cursor: pointer;
+  position: relative; height: 48px; aspect-ratio: 1; max-height: 56px; display: grid; place-items: center; border-radius: 14px; cursor: pointer;
   background: rgba(8,10,13,.6); border: 1px solid var(--line-2); font-family: var(--font-display); font-weight: 700; font-size: 17px;
   transition: all .2s;
 }
 .days input { position: absolute; opacity: 0; pointer-events: none; }
+.days label.is-checked { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); box-shadow: 0 0 20px -4px rgba(46,230,255,.7); }
 .days label:has(input:checked) { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); box-shadow: 0 0 20px -4px rgba(46,230,255,.7); }
 .days label:has(input:focus-visible) { outline: 2px solid var(--accent); outline-offset: 2px; }
 
@@ -299,6 +302,7 @@ p { margin: 0; }
   background: rgba(8,10,13,.6); border: 1px solid var(--line-2); transition: border-color .2s, background .2s;
 }
 .check input { width: 20px; height: 20px; accent-color: var(--accent); flex: none; }
+.check.is-checked { border-color: rgba(46,230,255,.5); background: var(--accent-soft); }
 .check:has(input:checked) { border-color: rgba(46,230,255,.5); background: var(--accent-soft); }
 
 /* ------------------------------------------------------------- badges & status */
@@ -357,7 +361,7 @@ p { margin: 0; }
 
 /* ------------------------------------------------------------- sheet / modal */
 .overlay {
-  position: fixed; inset: 0; z-index: 80; background: rgba(3, 4, 6, 0.66); backdrop-filter: blur(4px);
+  position: fixed; top: 0; right: 0; bottom: 0; left: 0; z-index: 80; background: rgba(3, 4, 6, 0.66); backdrop-filter: blur(4px);
   display: flex; align-items: flex-end; justify-content: center; animation: fadeIn .2s ease;
 }
 .sheet {
@@ -425,11 +429,11 @@ p { margin: 0; }
 .collage .ph:first-child { grid-row: span 2; }
 .collage .ph img { width: 100%; height: 100%; object-fit: cover; filter: grayscale(.35) contrast(1.08) brightness(.82); transition: transform .6s var(--ease), filter .4s; }
 .collage .ph:hover img { transform: scale(1.04); filter: grayscale(.1) contrast(1.08) brightness(.9); }
-.collage .ph::after { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, transparent 50%, rgba(5,7,9,.75)); pointer-events: none; }
+.collage .ph::after { content: ""; position: absolute; top: 0; right: 0; bottom: 0; left: 0; background: linear-gradient(180deg, transparent 50%, rgba(5,7,9,.75)); pointer-events: none; }
 .collage .ph .ph-label { position: absolute; left: 14px; bottom: 12px; z-index: 2; font-family: var(--font-display); font-weight: 600; font-size: 13px; display: flex; align-items: center; gap: 8px; }
 .collage .ph .ph-label i { width: 8px; height: 8px; border-radius: 50%; background: var(--accent); box-shadow: 0 0 10px var(--accent); }
 .collage .ph.fallback img { display: none; }
-.collage .ph .ph-art { position: absolute; inset: 0; display: none; place-items: center; color: rgba(46,230,255,.35); }
+.collage .ph .ph-art { position: absolute; top: 0; right: 0; bottom: 0; left: 0; display: none; place-items: center; color: rgba(46,230,255,.35); }
 .collage .ph.fallback .ph-art { display: grid; }
 .collage .ph .ph-art svg { width: 40%; height: 40%; }
 @media (min-width: 900px) { .hero { grid-template-columns: 1.05fr 1fr; gap: 40px; min-height: 420px; } .collage { height: 420px; } }
