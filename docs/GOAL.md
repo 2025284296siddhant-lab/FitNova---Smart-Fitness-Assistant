@@ -39,7 +39,7 @@ equivalent environment available on this machine.
 
 - [x] `android/` Gradle project compiles (`gradle assembleDebug` / `assembleRelease`) with no errors.
 - [~] APK installs on an emulator; app launches, server starts, Home renders (no crash, no blank screen).
-      *Real emulator blocked (no hardware acceleration on this PC; see README). Verified instead by running
+      *Real emulator blocked (no hardware acceleration on this PC; a software-only `-accel off` boot was still offline after 90+ min; see README). Verified instead by running
       the APK's own extracted code under Python 3.11 (Chaquopy's version) + Chromium at phone size.*
 - [x] On-device journey: create profile → create & save plan → mark session complete → Progress
       scatter shows the point → add a vitals reading → trends/history show it.

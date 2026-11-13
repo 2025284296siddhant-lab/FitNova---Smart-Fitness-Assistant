@@ -177,7 +177,7 @@ All charts are hand-built SVG (`web/js/charts.js`) with no external chart librar
   - Full journey at phone size with an Android user agent: onboarding with imperial units and an under-18 profile (BMI shown with no adult category), generate and save a plan (equipment limit respected), log a partial session, Progress diamond at 30 min, add a °F temperature reading.
   - After a force-stop and relaunch, all data persisted.
   - A stale profile key (the cleared-app-data case) correctly returns to onboarding.
-- ⚠️ **Not run on a real Android emulator on this PC.** Windows Hypervisor Platform is disabled, and enabling it needs admin rights and a reboot. Emulator 37 refuses ARM system images on x86 hosts, and x86 images require hardware acceleration. `android/run-emulator.ps1` and an Android 14 x86_64 image are ready for when acceleration is enabled.
+- ⚠️ **Not run on a real Android emulator on this PC.** Windows Hypervisor Platform is disabled, and enabling it needs admin rights and a reboot. Emulator 37 refuses ARM system images on x86 hosts, and x86 images require hardware acceleration. `android/run-emulator.ps1` and an Android 14 x86_64 image are ready for when acceleration is enabled. A software-only attempt (`-accel off`, x86_64 Android 14) was also tried: after more than 90 minutes the device was still `offline`, so it is not a workable fallback.
 
 ## 6. Limitations
 
