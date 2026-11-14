@@ -192,7 +192,7 @@ All charts are hand-built SVG (`web/js/charts.js`) with no external chart librar
 
 ## Project layout and agent workflow
 
-See `CLAUDE.md` for architecture and hard rules, `docs/SPEC.md` for the condensed requirements,
+See `build.md` for architecture and hard rules, `docs/SPEC.md` for the condensed requirements,
 `docs/GOAL.md` for the Definition of Done, `docs/TASKS.md` for the work breakdown, and
-`.claude/agents/` for the subagent briefs (exercise-librarian, test-engineer, page-builder,
+`.build/agents/` for the subagent briefs (exercise-librarian, test-engineer, page-builder,
 qa-runner) used to build it.

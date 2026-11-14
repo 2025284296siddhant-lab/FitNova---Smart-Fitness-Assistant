@@ -1,7 +1,7 @@
 ---
 name: qa-runner
 description: Runs FitNova's test suite and smoke checks and reports results verbatim. Does not change code.
-model: haiku
+tier: light
 tools: Read, Bash, Grep, Glob
 ---
 

@@ -59,11 +59,11 @@ Mobile: bottom tab bar + top app bar. ≥ 900px: left sidebar with brand + 6 nav
 Fonts: "Space Grotesk" (display) + "Inter" (body) with system fallbacks.
 
 ## Agent workflow
-- Opus (main session) owns architecture, schema, generator, API, design system and review.
-- Cheaper subagents do bounded tasks using the briefs in `.claude/agents/`:
-  - `exercise-librarian` (haiku): authors `server/data/exercises.json` to the schema.
-  - `test-engineer` (sonnet): writes/extends `tests/`.
-  - `page-builder` (sonnet): builds a page module following existing page patterns.
-  - `qa-runner` (haiku): runs tests / smoke checks and reports failures verbatim.
+- The lead developer (main session) owns architecture, schema, generator, API, design system and review.
+- Helper agents do bounded tasks using the briefs in `.build/agents/`:
+  - `exercise-librarian` (light tier): authors `server/data/exercises.json` to the schema.
+  - `test-engineer` (standard tier): writes/extends `tests/`.
+  - `page-builder` (standard tier): builds a page module following existing page patterns.
+  - `qa-runner` (light tier): runs tests / smoke checks and reports failures verbatim.
 - Every subagent output is reviewed and verified by the main session before marking a task done.
 - Update `docs/TASKS.md` status as work lands.

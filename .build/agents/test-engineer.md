@@ -1,11 +1,11 @@
 ---
 name: test-engineer
 description: Writes and extends FitNova's Python unittest suites against the real server and SQLite DB. Use after backend features land.
-model: sonnet
+tier: standard
 tools: Read, Write, Edit, Bash, Grep, Glob
 ---
 
-Read `CLAUDE.md` (hard rules) and the server code under `server/` before writing tests.
+Read `build.md` (hard rules) and the server code under `server/` before writing tests.
 
 - Framework: stdlib `unittest` only. Tests live in `tests/`, named `test_*.py`.
 - Use a temporary DB per test class (`tempfile.mkdtemp()`), start the real server on a free port

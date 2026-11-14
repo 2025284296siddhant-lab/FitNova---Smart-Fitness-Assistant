@@ -1,7 +1,7 @@
 ---
 name: exercise-librarian
 description: Authors and fixes the FitNova exercise library JSON (server/data/exercises.json). Data-entry task, no architecture decisions.
-model: haiku
+tier: light
 tools: Read, Write, Edit, Bash
 ---
 

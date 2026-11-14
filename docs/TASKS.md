@@ -1,10 +1,10 @@
 # FitNova Work Breakdown
 
-Owner key: **O** = Opus main session · **H** = haiku subagent · **S** = sonnet subagent.
+Owner key: **O** = owner (lead developer) · **H** = helper agent (light tier) · **S** = specialist agent (standard tier).
 Status: ☐ todo · ◐ in progress · ☑ done (verified by O).
 
 ## Phase 0 — Setup
-- ☑ O  CLAUDE.md, docs/SPEC.md, docs/GOAL.md, docs/TASKS.md, `.claude/agents/*`
+- ☑ O  build.md, docs/SPEC.md, docs/GOAL.md, docs/TASKS.md, `.build/agents/*`
 
 ## Phase 1 — Backend foundation
 - ☑ O  `server/db.py` connection, transaction ctx, migration runner + backup + verification
