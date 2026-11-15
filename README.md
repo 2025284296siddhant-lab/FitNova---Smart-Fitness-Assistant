@@ -47,7 +47,9 @@ FitNova full-screen like a native app. Full PWA install and offline caching need
 - The UI is shown full-screen in a WebView. The app starts its own server on `127.0.0.1:47615` and stores all data privately on the phone.
 - Data is excluded from cloud backups.
 
-**Install on a phone:** copy the APK to the phone and open it. Android will ask you to allow installing from that source (the "unknown apps" permission). The APK is signed with a debug key: fine for sideloading, not for the Play Store.
+**Download:** get [FitNova-1.0.apk](https://github.com/2025284296siddhant-lab/FitNova---Smart-Fitness-Assistant/releases/download/v1.0/FitNova-1.0.apk) from the [v1.0 release](https://github.com/2025284296siddhant-lab/FitNova---Smart-Fitness-Assistant/releases/tag/v1.0).
+
+**Install on a phone:** open the downloaded APK on the phone (or copy it over from a PC). Android will ask you to allow installing from that source (the "unknown apps" permission). The APK is signed with a debug key: fine for sideloading, not for the Play Store.
 
 **Build it yourself.** Needs JDK 17+ and the Android SDK; `android/local.properties` points at the SDK. Run:
 
