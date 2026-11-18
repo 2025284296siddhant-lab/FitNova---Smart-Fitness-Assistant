@@ -1,9 +1,9 @@
 // FitNova service worker: caches the app shell for fast/offline launch. API responses are never cached
 // (health and progress data must always come fresh from the database).
-const CACHE = "fitnova-shell-v1";
+const CACHE = "fitnova-shell-v5";
 const SHELL = [
   "/", "/index.html", "/css/app.css", "/img/topo.svg", "/manifest.webmanifest",
-  "/js/app.js", "/js/api.js", "/js/ui.js", "/js/charts.js", "/js/workout-ui.js",
+  "/js/app.js", "/js/api.js", "/js/ui.js", "/js/boost.js", "/js/charts.js", "/js/workout-ui.js",
   "/js/pages/home.js", "/js/pages/create.js", "/js/pages/workouts.js", "/js/pages/progress.js",
   "/js/pages/vitals.js", "/js/pages/about.js", "/js/pages/profile.js",
   "/icons/icon.svg", "/icons/icon-192.png", "/icons/icon-512.png",

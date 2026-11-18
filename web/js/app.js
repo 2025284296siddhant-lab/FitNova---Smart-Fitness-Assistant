@@ -1,6 +1,7 @@
 // FitNova app shell: hash router, navigation, profile session.
 import { get, getToken, setToken } from "./api.js";
 import { esc, icon, initials } from "./ui.js";
+import { initBoost, setBoostPage } from "./boost.js";
 
 const NAV = [
   { path: "/", label: "Home", short: "Home", icon: "home" },
@@ -83,6 +84,7 @@ async function router() {
   if (route.onboarding && getToken() && ctx.user) { ctx.navigate("/"); return; }
   if (cleanup) { try { cleanup(); } catch { /* ignore */ } cleanup = null; }
   renderNav(path);
+  setBoostPage(path);
   const view = document.getElementById("view");
   view.innerHTML = `<div class="stack"><div class="skeleton" style="height:44px;width:60%"></div><div class="skeleton" style="height:180px"></div><div class="skeleton" style="height:120px"></div></div>`;
   document.title = `${route.title} · FitNova`;
@@ -131,6 +133,7 @@ window.addEventListener("fitnova:auth-lost", () => {
 async function boot() {
   document.getElementById("legacy-notice")?.remove();
   document.querySelectorAll("[data-icon='logo']").forEach((n) => (n.innerHTML = icon("logo")));
+  initBoost();
   await ctx.refreshUser();
   if (getToken() && !ctx.user) {
     // Token no longer valid (profile deleted elsewhere) – start onboarding again.
