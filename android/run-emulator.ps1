@@ -1,7 +1,7 @@
 # FitNova: boot an Android 14 emulator, install the APK, launch it and smoke-test the on-device server.
 # Requires "Windows Hypervisor Platform" (Windows Features) so the x86_64 emulator can use hardware acceleration.
 # Usage (PowerShell):  powershell -ExecutionPolicy Bypass -File android\run-emulator.ps1  [-Apk path\to.apk]
-param([string]$Apk = "$PSScriptRoot\..\dist\FitNova-1.0.apk")
+param([string]$Apk = "$PSScriptRoot\..\dist\FitNova-1.1.apk")
 
 $ErrorActionPreference = "Stop"
 $sdk = if ($env:ANDROID_SDK_ROOT) { $env:ANDROID_SDK_ROOT } else { "$env:LOCALAPPDATA\Android\Sdk" }
